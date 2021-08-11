@@ -2326,8 +2326,8 @@
 	
 	<window name="windowTwitch" pos="-305, 200" width="300" height="400" controller="TwitchWindow" anchor="RightCenter" depth="-20" visible="false">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<label style="header.name" text="{status_title}" pos="8,-3" width="290" />
-			<label depth="2" pos="5,-6" width="290" height="32" text="{status}" justify="right" />
+			<label style="header.name" text="{status_title}" pos="8,-3" width="140" />
+            <label depth="2" pos="150,-6" width="140" height="32" text="{status}" justify="right" />
 		</panel>
 		
 		<panel name="cooldownBar" pos="0,-41" height="20" depth="1">
@@ -2351,7 +2351,7 @@
 		<panel name="titleHeader" pos="0,-96" height="43" depth="1" visible="{grouptitlevisible}">
 			<sprite name="backgroundMain" depth="8" sprite="menu_empty3px" pos="0,0" width="300" height="43" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="1" color="[darkestGrey]" type="sliced" />
-			<label style="header.name" text="{grouptitle}" justify="center" pos="0,-3" width="300" />
+			<label pos="40,-3" style="header.name" text="{grouptitle}" justify="center" width="215" />
 			<button pos="20,-20" depth="2" name="leftButton" style="icon32px" sprite="ui_game_symbol_arrow_left" defaultcolor="[white]" pivot="center" collider_scale="1.5" sound="[paging_click]" />
 			<button pos="277,-20" depth="2" name="rightButton" style="icon32px" sprite="ui_game_symbol_arrow_right" defaultcolor="[white]" pivot="center" collider_scale="1.5" sound="[paging_click]" />
 		</panel>

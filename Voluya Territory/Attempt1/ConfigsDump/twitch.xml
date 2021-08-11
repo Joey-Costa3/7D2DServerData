@@ -1489,24 +1489,25 @@
 	-->
 	
 	<cooldown_preset>
-		<property name="name" value="always" />
-		<property name="title_key" value="TwitchCooldownPreset_Always" />
-		<property name="cooldown_type" value="Always" /> 
+		<property name="name" value="noCooldown" />
+		<property name="title_key" value="TwitchCooldownPreset_NoCooldown" />
+		<property name="cooldown_type" value="None" /> 
 	</cooldown_preset>
 	
 	<cooldown_preset>
-		<property name="name" value="easy" />
-		<property name="title_key" value="TwitchCooldownPreset_Easy" />
-		<property name="start_cooldown" value="600" />
-		<property name="death_cooldown" value="300" />
-		<property name="bm_start_offset" value="6" />
-		<property name="bm_end_offset" value="6" />
-		
-		<cooldown_entry end="4" cooldown_max="150" cooldown_time="600" />
-		<cooldown_entry start="5" end="10" cooldown_max="200" cooldown_time="600" />
-		<cooldown_entry start="11" end="20" cooldown_max="300" cooldown_time="600" />
-		<cooldown_entry start="21" end="30" cooldown_max="400" cooldown_time="600" />
-		<cooldown_entry start="31" cooldown_max="500" cooldown_time="600" />
+		<property name="name" value="hardcore" />
+		<property name="title_key" value="TwitchCooldownPreset_Hardcore" />
+		<property name="start_cooldown" value="180" />
+		<property name="death_cooldown" value="60" />
+		<property name="bm_start_offset" value="1" />
+		<property name="bm_end_offset" value="1" />
+
+		<cooldown_entry end="4" cooldown_max="300" cooldown_time="150" />
+		<cooldown_entry start="5" end="10" cooldown_max="600" cooldown_time="150" />
+		<cooldown_entry start="11" end="20" cooldown_max="800" cooldown_time="120" />
+		<cooldown_entry start="21" end="30" cooldown_max="1000" cooldown_time="120" />
+		<cooldown_entry start="31" end="40" cooldown_max="1200" cooldown_time="120" />
+		<cooldown_entry start="41" cooldown_max="1500" cooldown_time="60" />
 	</cooldown_preset>
 	
 	<cooldown_preset>
@@ -1527,27 +1528,27 @@
 	</cooldown_preset>
 	
 	<cooldown_preset>
-		<property name="name" value="hardcore" />
-		<property name="title_key" value="TwitchCooldownPreset_Hardcore" />
-		<property name="start_cooldown" value="180" />
-		<property name="death_cooldown" value="60" />
-		<property name="bm_start_offset" value="1" />
-		<property name="bm_end_offset" value="1" />
-
-		<cooldown_entry end="4" cooldown_max="300" cooldown_time="150" />
-		<cooldown_entry start="5" end="10" cooldown_max="600" cooldown_time="150" />
-		<cooldown_entry start="11" end="20" cooldown_max="800" cooldown_time="120" />
-		<cooldown_entry start="21" end="30" cooldown_max="1000" cooldown_time="120" />
-		<cooldown_entry start="31" end="40" cooldown_max="1200" cooldown_time="120" />
-		<cooldown_entry start="41" cooldown_max="1500" cooldown_time="60" />
+		<property name="name" value="easy" />
+		<property name="title_key" value="TwitchCooldownPreset_Easy" />
+		<property name="start_cooldown" value="600" />
+		<property name="death_cooldown" value="300" />
+		<property name="bm_start_offset" value="6" />
+		<property name="bm_end_offset" value="6" />
+		
+		<cooldown_entry end="4" cooldown_max="150" cooldown_time="600" />
+		<cooldown_entry start="5" end="10" cooldown_max="200" cooldown_time="600" />
+		<cooldown_entry start="11" end="20" cooldown_max="300" cooldown_time="600" />
+		<cooldown_entry start="21" end="30" cooldown_max="400" cooldown_time="600" />
+		<cooldown_entry start="31" cooldown_max="500" cooldown_time="600" />
 	</cooldown_preset>
 	
 	<cooldown_preset>
-		<property name="name" value="noCooldown" />
-		<property name="title_key" value="TwitchCooldownPreset_NoCooldown" />
-		<property name="cooldown_type" value="None" /> 
+		<property name="name" value="always" />
+		<property name="title_key" value="TwitchCooldownPreset_Always" />
+		<property name="cooldown_type" value="Always" /> 
 	</cooldown_preset>
-
+	
+	
 	<tip name="TwitchTip_EarningPoints" />
 	<tip name="TwitchTip_ChatCommands" />
 	<tip name="TwitchTip_AdminCommands" />
