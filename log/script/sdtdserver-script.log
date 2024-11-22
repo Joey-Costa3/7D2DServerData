@@ -1,0 +1,5 @@
+Nov 15 02:51:10.681 sdtdserver: START: PASS: Started My Game Host
+Nov 15 02:51:10.784 sdtdserver: START: PASS: Started My Game Host
+Nov 15 02:51:11.009 sdtdserver: START: PASS: Downloading core_exit.sh...
+Nov 15 02:51:11.015 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
+Nov 15 02:51:11.017 sdtdserver: START: PASS: core_exit.sh exiting with code: 0

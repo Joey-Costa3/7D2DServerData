@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persistentplayerdata>
+  <player platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" nativeplatform="Steam" nativeuserid="76561199036446150" playername="CostaDelMars" lastlogin="2024-11-13 04:43:21" position="-212,61,678">
+    <acl platform="EOS" userid="000204481cce44489a328d6fcefc5fd7" />
+    <acl platform="EOS" userid="00021eebf2db42e69d23b452b65f6d24" />
+    <acl platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" />
+    <lpblock pos="-214,61,715" />
+    <bedroll pos="-211,66,679" />
+    <questpositions>
+      <position id="2138353012" positiondatatype="2" pos="-27,47,-174" />
+      <position id="2138353012" positiondatatype="0" pos="329,76,-230" />
+      <position id="503040763" positiondatatype="2" pos="-958,93,1064" />
+      <position id="503040763" positiondatatype="0" pos="-535,62,480" />
+    </questpositions>
+  </player>
+  <player platform="EOS" userid="000204481cce44489a328d6fcefc5fd7" nativeplatform="Steam" nativeuserid="76561198053631854" playername="directorfitz" lastlogin="2024-11-13 04:33:16" position="-214,61,677">
+    <acl platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" />
+    <acl platform="EOS" userid="00021eebf2db42e69d23b452b65f6d24" />
+    <acl platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" />
+    <lpblock pos="-209,61,674" />
+    <bedroll pos="-215,61,675" />
+    <questpositions>
+      <position id="1402508249" positiondatatype="2" pos="-958,93,1064" />
+      <position id="1402508249" positiondatatype="0" pos="-535,62,480" />
+    </questpositions>
+  </player>
+  <player platform="EOS" userid="00021eebf2db42e69d23b452b65f6d24" nativeplatform="Steam" nativeuserid="76561197969472572" playername="conceptxo" lastlogin="2024-11-13 04:33:21" position="-212,61,678">
+    <acl platform="EOS" userid="000204481cce44489a328d6fcefc5fd7" />
+    <acl platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" />
+    <acl platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" />
+    <bedroll pos="-213,61,679" />
+    <questpositions>
+      <position id="540259251" positiondatatype="2" pos="49,59,429" />
+      <position id="540259251" positiondatatype="0" pos="-535,62,480" />
+      <position id="540259251" positiondatatype="7" pos="73,61,451" />
+    </questpositions>
+  </player>
+  <player platform="EOS" userid="000291d4518743dc94e5859056fdb03f" nativeplatform="Steam" nativeuserid="76561199110470285" playername="The_ZeyroXLP" lastlogin="2024-11-08 22:13:28" position="828,66,654" />
+  <player platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" nativeplatform="Steam" nativeuserid="76561198346392358" playername="Seegee417" lastlogin="2024-11-13 04:44:36" position="-199,61,678">
+    <acl platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" />
+    <acl platform="EOS" userid="000204481cce44489a328d6fcefc5fd7" />
+    <acl platform="EOS" userid="00021eebf2db42e69d23b452b65f6d24" />
+    <lpblock pos="-241,58,765" />
+    <bedroll pos="-208,61,680" />
+    <questpositions>
+      <position id="503040763" positiondatatype="2" pos="-958,93,1064" />
+      <position id="503040763" positiondatatype="0" pos="-535,62,480" />
+    </questpositions>
+  </player>
+</persistentplayerdata>
