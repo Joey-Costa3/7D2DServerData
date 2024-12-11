@@ -57,6 +57,11 @@
     <!-- Name is optional for display purposes only -->
     <!-- <user platform="" userid="" name="" /> -->
     <!-- <group steamID="" name="" /> -->
+    <user platform="Steam" userid="76561199036446150" name="Costa" />
+    <user platform="Steam" userid="76561197969472572" name="Nick" />
+    <user platform="Steam" userid="76561198053631854" name="Austin" />
+    <user platform="Steam" userid="76561198397164707" name="Joe" />
+    <user platform="Steam" userid="76561198346392358" name="Connor" />
   </whitelist>
   <blacklist>
     <!-- <blacklisted platform="" userid="" name="" unbandate="" reason="" /> -->
