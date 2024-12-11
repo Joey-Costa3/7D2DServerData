@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persistentplayerdata>
+  <player platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" nativeplatform="Steam" nativeuserid="76561198346392358" playername="Seegee417" lastlogin="2024-11-27 02:46:39" position="-224,61,692">
+    <acl platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" />
+    <lpblock pos="-258,61,457" />
+    <questpositions>
+      <position id="-83623812" positiondatatype="4" pos="-981,60,294" />
+      <position id="-83623812" positiondatatype="0" pos="-535,62,480" />
+      <position id="-83623812" positiondatatype="1" pos="-981,60,294" />
+    </questpositions>
+  </player>
+  <player platform="EOS" userid="0002f1e01ad44091a9b0bde8c30901e7" nativeplatform="Steam" nativeuserid="76561199036446150" playername="CostaDelMars" lastlogin="2024-11-27 02:46:33" position="-224,61,690">
+    <acl platform="EOS" userid="00024a1acbf648c0a055194d215e49f5" />
+    <questpositions>
+      <position id="438476307" positiondatatype="4" pos="-696,60,467" />
+      <position id="438476307" positiondatatype="0" pos="-535,62,480" />
+      <position id="438476307" positiondatatype="1" pos="-696,60,467" />
+    </questpositions>
+  </player>
+</persistentplayerdata>

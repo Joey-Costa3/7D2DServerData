@@ -1,0 +1,126 @@
+Dec 02 18:33:21.801 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 02 18:33:21.904 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 02 18:33:22.166 sdtdserver: START: PASS: Downloading core_exit.sh...
+Dec 02 18:33:22.171 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
+Dec 02 18:33:22.172 sdtdserver: START: PASS: core_exit.sh exiting with code: 0
+Dec 11 01:50:38.679 sdtdserver: CORE: PASS: Downloading command_stop.sh...
+Dec 11 01:50:39.501 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 11 01:53:40.961 sdtdserver: CORE: PASS: Downloading linuxgsm.sh...
+Dec 11 01:53:41.140 sdtdserver: CORE: PASS: Downloading core_getopt.sh...
+Dec 11 01:53:41.874 sdtdserver: CORE: PASS: Downloading command_update.sh...
+Dec 11 01:53:42.588 sdtdserver: UPDATE: PASS: Downloading check.sh...
+Dec 11 01:53:42.782 sdtdserver: UPDATE: PASS: Downloading check_root.sh...
+Dec 11 01:53:42.941 sdtdserver: UPDATE: PASS: Downloading check_version.sh...
+Dec 11 01:53:43.117 sdtdserver: UPDATE: PASS: Downloading check_tmuxception.sh...
+Dec 11 01:53:43.319 sdtdserver: UPDATE: PASS: Downloading check_permissions.sh...
+Dec 11 01:53:43.515 sdtdserver: UPDATE: PASS: Downloading check_system_dir.sh...
+Dec 11 01:53:43.684 sdtdserver: UPDATE: PASS: Downloading check_logs.sh...
+Dec 11 01:53:44.447 sdtdserver: UPDATE: PASS: Downloading install_logs.sh...
+Dec 11 01:53:44.985 sdtdserver: UPDATE: INFO: Logs installed
+Dec 11 01:53:45.145 sdtdserver: UPDATE: PASS: Downloading check_steamcmd.sh...
+Dec 11 01:53:45.339 sdtdserver: UPDATE: PASS: Downloading core_steamcmd.sh...
+Dec 11 01:53:45.350 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:53:45.547 sdtdserver: UPDATE: PASS: Downloading check_status.sh...
+Dec 11 01:53:45.763 sdtdserver: UPDATE: PASS: Downloading check_gamedig.sh...
+Dec 11 01:53:45.770 sdtdserver: UPDATE: INFO: Installing Gamedig
+Dec 11 01:54:18.181 sdtdserver: UPDATE: PASS: Downloading core_logs.sh...
+Dec 11 01:54:18.793 sdtdserver: UPDATE: INFO: Removing logs older than 7 days
+/home/sdtdserver/log/script/sdtdserver-script-2024-12-02-18:24:09.log
+/home/sdtdserver/log/script/sdtdserver-script-2024-11-27-02:56:01.log
+/home/sdtdserver/log/script/sdtdserver-script-2024-12-02-18:30:50.log
+/home/sdtdserver/log/console/sdtdserver-console-2024-12-02-18:30:50.log
+/home/sdtdserver/log/console/sdtdserver-console-2024-11-27-02:56:01.log
+/home/sdtdserver/log/console/sdtdserver-console-2024-12-02-18:24:09.log
+Dec 11 01:54:18.919 sdtdserver: UPDATE: Removed 6 log files
+Dec 11 01:54:19.167 sdtdserver: UPDATE: PASS: Downloading check_last_update.sh...
+Dec 11 01:54:19.353 sdtdserver: UPDATE: PASS: Downloading update_steamcmd.sh...
+Dec 11 01:54:20.554 sdtdserver: UPDATE: INFO: Logs installed
+Dec 11 01:54:22.541 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:54:25.282 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:54:25.431 sdtdserver: UPDATE: PASS: Downloading core_exit.sh...
+Dec 11 01:54:25.436 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:54:25.437 sdtdserver: UPDATE: PASS: core_exit.sh exiting with code: 0
+Dec 11 01:54:28.233 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:54:31.117 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:54:33.854 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:54:33.858 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:54:33.859 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:54:36.199 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:54:39.001 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:54:41.731 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:54:41.752 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:54:41.756 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:54:44.402 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:54:47.274 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:54:50.007 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:54:50.012 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:54:50.013 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:54:53.459 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:54:56.569 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:54:59.311 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:54:59.324 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:54:59.327 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:55:03.132 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:55:06.013 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:55:08.743 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:55:08.748 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:55:08.749 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:55:14.415 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:55:17.429 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:55:20.147 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:55:20.151 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:55:20.152 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:55:28.789 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:55:31.740 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:55:50.482 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:55:50.502 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:55:50.507 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:55:53.341 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:55:55.926 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:56:02.050 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:56:02.070 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:56:02.075 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:56:04.727 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:56:07.784 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:56:13.896 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:56:13.912 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:56:13.915 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:56:16.968 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:56:20.033 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:56:29.669 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:56:29.689 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:56:29.695 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:56:32.619 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:56:35.916 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:56:43.688 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:56:43.692 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:56:43.694 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:56:46.784 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:56:49.761 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:56:55.710 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:56:55.730 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:56:55.735 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:56:58.649 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:57:01.658 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:57:08.428 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:57:08.435 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:57:08.438 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:57:11.374 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:57:14.592 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:57:21.430 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:57:21.446 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:57:21.448 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:57:24.279 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:57:27.358 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:57:34.914 sdtdserver: UPDATE: FATAL: Checking remote build
+Dec 11 01:57:34.926 sdtdserver: UPDATE: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:57:34.927 sdtdserver: UPDATE: FATAL: core_exit.sh exiting with code: 1
+Dec 11 01:57:37.484 sdtdserver: CORE: PASS: Downloading command_stop.sh...
+Dec 11 01:57:37.727 sdtdserver: UPDATE: INFO: Using anonymous Steam login
+Dec 11 01:57:39.204 sdtdserver: STOP: PASS: Downloading check_config.sh...
+Dec 11 01:57:39.305 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 11 01:57:41.634 sdtdserver: UPDATE: PASS: Checking local build
+Dec 11 01:57:43.238 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 11 01:57:43.350 sdtdserver: STOP: INFO: CostaDelMars_Small is already stopped
+Dec 11 01:57:43.378 sdtdserver: STOP: INFO: LinuxGSM version: v24.3.1
+Dec 11 01:57:43.382 sdtdserver: STOP: PASS: core_exit.sh exiting with code: 0
