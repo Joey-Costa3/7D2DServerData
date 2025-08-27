@@ -602,6 +602,7 @@
   <!-- *** ZOMBIE_MARLENE -->
   <entity_class name="zombieMarlene" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,3" />
     <property name="SizeScale" value="0.97" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMarlene.prefab" />
@@ -687,6 +688,7 @@
   <!-- *** ZOMBIE_PARTY_GIRL -->
   <entity_class name="zombiePartyGirl" extends="zombieTemplateSlimFemale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="0.99" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZCocktailWaitress.prefab" />
@@ -761,6 +763,7 @@
   <!-- *** ZOMBIE_NURSE -->
   <entity_class name="zombieNurse" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZNurse.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_NurseZ2.mat,@:Entities/Zombies/Zombies/Materials/HD_NurseZ3.mat" />
@@ -846,6 +849,7 @@
   <!-- *** ZOMBIE_JOE -->
   <entity_class name="zombieJoe" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZJoe.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Joe2.mat,@:Entities/Zombies/Zombies/Materials/HD_Joe3.mat" />
@@ -923,6 +927,7 @@
   <!-- *** ZOMBIE_STEVE -->
   <entity_class name="zombieSteve" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="0.95" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSteve.prefab" />
@@ -1003,6 +1008,7 @@
   <!-- *** ZOMBIE_TOM_CLARK-->
   <entity_class name="zombieTomClark" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="0.95" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZTomClark.prefab" />
@@ -1083,6 +1089,7 @@
   <!-- *** ZOMBIE_BUSINESSMAN -->
   <entity_class name="zombieBusinessMan" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSuit.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_SuitZ2.mat,@:Entities/Zombies/Zombies/Materials/HD_SuitZ3.mat" />
@@ -1160,6 +1167,7 @@
   <!-- *** ZOMBIE_BURNT-->
   <entity_class name="zombieBurnt" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab" />
     <property name="WalkType" value="7" />
@@ -1242,6 +1250,7 @@
   <!-- *** ZOMBIE_SPIDER -->
   <entity_class name="zombieSpider" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value=".94" />
     <property name="Tags" value="entity,zombie,spider" />
     <property name="Prefab" value="ZLong" />
@@ -1344,6 +1353,7 @@
   <!-- *** ZOMBIE_BOE -->
   <entity_class name="zombieBoe" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,3" />
     <property name="SizeScale" value="1.08" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="SoundRandom" value="zombiemale2roam" />
@@ -1424,6 +1434,7 @@
   <!-- *** ZOMBIE_HAZMAT -->
   <entity_class name="zombieMaleHazmat" extends="zombieBoe">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="SoundRandom" value="zombie_hazmat_roam" />
     <property name="SoundAlert" value="zombie_hazmat_alert" />
@@ -1512,6 +1523,7 @@
   <!-- *** ZOMBIE_JANITOR -->
   <entity_class name="zombieJanitor" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMechanic.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_MechanicZ2.mat" />
@@ -1593,6 +1605,7 @@
   <!-- *** ZOMBIE_INMATE -->
   <entity_class name="zombieInmate" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="1.08" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZInmate.prefab" />
@@ -1758,6 +1771,7 @@
   <!-- *** ZOMBIE_LAB -->
   <entity_class name="zombieLab" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZLab.prefab" />
     <property name="SoundRandom" value="zombiefemaleroam" />
@@ -1775,7 +1789,7 @@
     <property name="NavObjectHeadOffset" value="0,-0.15,0" />
     <property name="DanceType" value="2" />
     <!-- Dismemberment -->
-    <property name="DismemberTag_L_HeadGore" value="Lab/Blade/Head;Lab/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+    <property name="DismemberTag_L_HeadGore" value="Lab/Blade/Head;Lab/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true+ibo=head+scale=1,1,1;type=blunt+target=neck+atp=true+ibo=head+scale=1,1,1" />
     <property name="DismemberTag_L_LeftLowerArmGore" value="Lab/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftLowerLegGore" value="Lab/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftUpperArmGore" value="Lab/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
@@ -1836,6 +1850,7 @@
   <!-- *** ZOMBIE_DARLENE -->
   <entity_class name="zombieDarlene" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="0.98" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDarlene.prefab" />
@@ -1852,7 +1867,7 @@
     <property name="HasDeathAnim" value="true" />
     <property name="DanceType" value="2" />
     <!-- Dismemberment -->
-    <property name="DismemberTag_L_HeadGore" value="Darlene/Blade/Head;Darlene/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+    <property name="DismemberTag_L_HeadGore" value="Darlene/Blade/Head;Darlene/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true+ico=true;type=blunt+target=neck+atp=true+ico=true" />
     <property name="DismemberTag_L_LeftLowerArmGore" value="Darlene/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftLowerLegGore" value="Darlene/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftUpperArmGore" value="Darlene/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
@@ -1917,6 +1932,7 @@
   <!-- *** ZOMBIE_YO -->
   <entity_class name="zombieYo" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="1.02" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZYo.prefab" />
@@ -1991,6 +2007,7 @@
   <!-- *** ZOMBIE_UTILITY_WORKER -->
   <entity_class name="zombieUtilityWorker" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="SoundRandom" value="zombiemale2roam" />
     <property name="SoundAlert" value="zombiemale2alert" />
@@ -2160,6 +2177,7 @@
   <!-- *** ZOMBIE_LUMBERJACK -->
   <entity_class name="zombieLumberjack" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZLumberjack.prefab" />
     <property name="ModelType" value="Standard" />
@@ -2344,6 +2362,7 @@
   <!-- *** ZOMBIE_FAT_HAWAIIAN -->
   <entity_class name="zombieFatHawaiian" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZHawaiian.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Hawaiian_Zombie2.mat,@:Entities/Zombies/Zombies/Materials/HD_Hawaiian_Zombie4.mat" />
@@ -2361,15 +2380,15 @@
     <property name="RootMotion" value="true" />
     <property name="HasDeathAnim" value="true" />
     <!-- Dismemberment - Default dismemberment part set, will use part scaling and gib end caps -->
-    <property name="DismemberTag_L_HeadGore" />
-    <property name="DismemberTag_L_LeftLowerArmGore" />
-    <property name="DismemberTag_L_LeftUpperArmGore" />
-    <property name="DismemberTag_L_LeftUpperLegGore" />
-    <property name="DismemberTag_L_RightLowerArmGore" />
-    <property name="DismemberTag_L_RightUpperArmGore" />
-    <property name="DismemberTag_L_RightUpperLegGore" />
-    <property name="DismemberTag_L_LeftLowerLegGore" />
-    <property name="DismemberTag_L_RightLowerLegGore" />
+    <property name="DismemberTag_L_HeadGore" value="Hawaiian/Blade/Head;Hawaiian/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+    <property name="DismemberTag_L_LeftLowerArmGore" value="Hawaiian/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftLowerLegGore" value="Hawaiian/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftUpperArmGore" value="linked" data="DismemberTag_L_LeftLowerArmGore" />
+    <property name="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore" />
+    <property name="DismemberTag_L_RightLowerArmGore" value="Hawaiian/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightLowerLegGore" value="Hawaiian/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightUpperArmGore" value="linked" data="DismemberTag_L_RightLowerArmGore" />
+    <property name="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore" />
     <!-- Gameplay zombieFatHawaiian -->
     <property name="MoveSpeedAggro" value="0.2, 1.2" />
     <property name="JumpMaxDistance" value=".8, 1.1" />
@@ -2434,6 +2453,7 @@
   <!-- *** ZOMBIE_BOWLER -->
   <entity_class name="zombieBowler" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBowler.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Hawaiian_Zombie5.mat" />
@@ -2451,15 +2471,15 @@
     <property name="RootMotion" value="true" />
     <property name="HasDeathAnim" value="true" />
     <!-- Dismemberment - Default dismemberment part set, will use part scaling and gib end caps -->
-    <property name="DismemberTag_L_HeadGore" />
-    <property name="DismemberTag_L_LeftLowerArmGore" />
-    <property name="DismemberTag_L_LeftUpperArmGore" />
-    <property name="DismemberTag_L_LeftUpperLegGore" />
-    <property name="DismemberTag_L_RightLowerArmGore" />
-    <property name="DismemberTag_L_RightUpperArmGore" />
-    <property name="DismemberTag_L_RightUpperLegGore" />
-    <property name="DismemberTag_L_LeftLowerLegGore" />
-    <property name="DismemberTag_L_RightLowerLegGore" />
+    <property name="DismemberTag_L_HeadGore" value="Hawaiian/Blade/Head;Hawaiian/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+    <property name="DismemberTag_L_LeftLowerArmGore" value="Hawaiian/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftLowerLegGore" value="Hawaiian/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftUpperArmGore" value="linked" data="DismemberTag_L_LeftLowerArmGore" />
+    <property name="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore" />
+    <property name="DismemberTag_L_RightLowerArmGore" value="Hawaiian/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightLowerLegGore" value="Hawaiian/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightUpperArmGore" value="linked" data="DismemberTag_L_RightLowerArmGore" />
+    <property name="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore" />
     <!-- Gameplay zombieBowler -->
     <property name="MoveSpeedAggro" value="0.2, 1.2" />
     <property name="JumpMaxDistance" value=".8, 1.1" />
@@ -2524,6 +2544,7 @@
   <!-- *** ZOMBIE_FAT_COP -->
   <entity_class name="zombieFatCop" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Class" value="EntityZombieCop" />
     <property name="Tags" value="entity,zombie,walker,zombieCop" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZCop.prefab" />
@@ -2556,15 +2577,15 @@
     <property name="HeadExplosionDamageMultiplier" value="2" />
     <property name="ChestExplosionDamageMultiplier" value="2" />
     <!-- Dismemberment -->
-    <property name="DismemberTag_L_HeadGore" value="Cop/Blade/Head;Cop/Blunt/Head" data="type=blade+target=head+atp=true+detach=true+ico=neck;type=blunt+target=head+atp=true" />
+    <property name="DismemberTag_L_HeadGore" value="Cop/Blade/Head;Cop/Blunt/Head" data="type=blade+target=head+atp=true+detach=true+ico=neck;type=blunt+target=head+atp=true+detach=true+ico=neck" />
     <property name="DismemberTag_L_LeftLowerArmGore" value="Cop/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_LeftUpperArmGore" value="Cop/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_LeftUpperLegGore" value="Cop/Blade/LeftUpperLeg" data="type=blade+target=leftupleg+detach=true+mask=true" />
     <property name="DismemberTag_L_RightLowerArmGore" value="Cop/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_RightUpperArmGore" value="Cop/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_RightUpperLegGore" value="Cop/Blade/RightUpperLeg" data="type=blade+target=rightupleg+detach=true+mask=true" />
-    <property name="DismemberTag_L_LeftLowerLegGore" value="linked" data="DismemberTag_L_LeftUpperLegGore" />
-    <property name="DismemberTag_L_RightLowerLegGore" value="linked" data="DismemberTag_L_RightUpperLegGore" />
+    <property name="DismemberTag_L_LeftLowerLegGore" value="Cop/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightLowerLegGore" value="Cop/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore" />
+    <property name="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore" />
+    <property name="DismemberTag_L_LeftUpperArmGore" value="linked" data="DismemberTag_L_LeftLowerArmGore" />
+    <property name="DismemberTag_L_RightUpperArmGore" value="linked" data="DismemberTag_L_RightLowerArmGore" />
     <!-- Gameplay zombieFatCop -->
     <property name="MoveSpeedAggro" value="0.2, 1.2" />
     <property name="JumpMaxDistance" value=".8, 1.1" />
@@ -2644,6 +2665,7 @@
       <triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen" />
       <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1" />
     </effect_group>
+    <property name="Explosion.ParticleIndex" value="80" />
     <property name="Explosion.BlockDamage" value="750" />
     <property name="Explosion.EntityDamage" value="250" />
   </entity_class>
@@ -2652,6 +2674,7 @@
   <!-- *** ZOMBIE_SKATEBOARDER -->
   <entity_class name="zombieSkateboarder" extends="zombieBoe">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThug.prefab" />
     <property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Thug2.mat,@:Entities/Zombies/Zombies/Materials/HD_Thug3.mat" />
@@ -2734,13 +2757,8 @@
   <!-- *** ZOMBIE_SOLDIER -->
   <entity_class name="zombieSoldier" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,3" />
     <property name="Tags" value="entity,zombie,walker,zombieSoldier" />
-    <property name="SoundRandom" value="zombiemale2roam" />
-    <property name="SoundAlert" value="zombiemale2alert" />
-    <property name="SoundAttack" value="zombiemale2attack" />
-    <property name="SoundHurt" value="zombiemale2pain" />
-    <property name="SoundDeath" value="zombiemale2death" />
-    <property name="SoundSense" value="zombiemale2sense" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldier.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="WalkType" value="2" />
@@ -2748,6 +2766,12 @@
     <property name="RootMotion" value="true" />
     <property name="HasDeathAnim" value="true" />
     <property name="AIPathCostScale" value=".35, .55" />
+    <property name="SoundRandom" value="zombiemale2roam" />
+    <property name="SoundAlert" value="zombiemale2alert" />
+    <property name="SoundAttack" value="zombiemale2attack" />
+    <property name="SoundHurt" value="zombiemale2pain" />
+    <property name="SoundDeath" value="zombiemale2death" />
+    <property name="SoundSense" value="zombiemale2sense" />
     <!-- Gameplay zombieSoldier -->
     <property name="MoveSpeedAggro" value="0.3, 1.35" />
     <!-- fit, regular -->
@@ -2799,6 +2823,7 @@
   <!-- *** ZOMBIE_SOLDIER_RADIATED -->
   <entity_class name="zombieSoldierRadiated" extends="zombieSoldierFeral">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="0" />
     <property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierRadiated.prefab" />
     <!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
@@ -2824,6 +2849,7 @@
   <!-- *** ZOMBIE_WIGHT_FERAL -->
   <entity_class name="zombieWightFeral" extends="zombieTemplateMale">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="SizeScale" value="1.1" />
     <property name="Tags" value="entity,zombie,walker,feral" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWightFeral.prefab" />
@@ -2908,6 +2934,7 @@
   <!-- *** ZOMBIE_SCREAMER -->
   <entity_class name="zombieScreamer" extends="zombieTemplateShort">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamer.prefab" />
     <property name="SoundRandom" value="zombiefemalescoutroam" />
@@ -2990,6 +3017,7 @@
   <!-- *** ZOMBIE_MUTATED -->
   <entity_class name="zombieMutated" extends="zombieFatCop">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Tags" value="entity,zombie,walker" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMutated.prefab" />
     <property name="SizeScale" value="1" />
@@ -2998,10 +3026,10 @@
     <!-- Dismemberment -->
     <property name="DismemberTag_L_HeadGore" value="Mutated/Blade/Head;Mutated/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
     <property name="DismemberTag_L_LeftLowerArmGore" value="Mutated/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_LeftUpperArmGore" value="Mutated/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
+    <property name="DismemberTag_L_LeftUpperArmGore" value="linked" data="DismemberTag_L_LeftLowerArmGore" />
     <property name="DismemberTag_L_LeftUpperLegGore" value="Mutated/Blade/LeftUpperLeg" data="type=blade+target=leftupleg+detach=true+mask=true" />
     <property name="DismemberTag_L_RightLowerArmGore" value="Mutated/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true" />
-    <property name="DismemberTag_L_RightUpperArmGore" value="Mutated/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true" />
+    <property name="DismemberTag_L_RightUpperArmGore" value="linked" data="DismemberTag_L_RightLowerArmGore" />
     <property name="DismemberTag_L_RightUpperLegGore" value="Mutated/Blade/RightUpperLeg" data="type=blade+target=rightupleg+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftLowerLegGore" value="linked" data="DismemberTag_L_LeftUpperLegGore" />
     <property name="DismemberTag_L_RightLowerLegGore" value="linked" data="DismemberTag_L_RightUpperLegGore" />
@@ -3077,6 +3105,7 @@
   <!-- *** ZOMBIE_DEMOLITION -->
   <entity_class name="zombieDemolition" extends="zombieSoldier">
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,2" />
     <property name="Class" value="EntityZombieCop" />
     <property name="Tags" value="entity,zombie,walker,boss" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab" />
@@ -3128,8 +3157,8 @@
   </entity_class>
   <!-- *** ZOMBIE_CRAWLER -->
   <entity_class name="zombieSteveCrawler" extends="zombieTemplateMale">
-    <property name="Class" value="EntityZombie" />
     <property name="UserSpawnType" value="Menu" />
+    <property name="Censor" value="1,3" />
     <property name="Tags" value="entity,zombie,crawler" />
     <property name="Mesh" value="@:Entities/Zombies/Prefabs/ZCrawler.prefab" />
     <property name="Mass" value="140" />
@@ -3148,7 +3177,7 @@
     <property name="SoundSleeperBackToSleep" value="sleeperbacktosleep" />
     <property name="DanceType" value="0" />
     <!-- Dismemberment -->
-    <property name="DismemberTag_L_HeadGore" value="Crawler/Blade/Head;Crawler/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+    <property name="DismemberTag_L_HeadGore" value="Crawler/Blade/Head;Crawler/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true+ico=neck;type=blunt+target=neck+atp=true" />
     <property name="DismemberTag_L_LeftLowerArmGore" value="Crawler/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
     <property name="DismemberTag_L_LeftUpperArmGore" value="Crawler/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
     <property name="DismemberTag_L_RightLowerArmGore" value="Crawler/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true" />
@@ -3328,16 +3357,19 @@
     <property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03" />
     <property name="MapIcon" value="ui_game_symbol_tracking_rabbit" />
     <property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit" />
-    <property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT" />
+    <property name="AvatarController" value="AvatarAnimalController" />
+    <property name="ModelType" value="Standard" />
+    <property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab" />
     <property name="Parent" value="Animals" />
     <property name="Faction" value="animals" />
     <property name="PhysicsBody" value="rabbit" />
-    <property name="Mass" value="12" />
-    <property name="Weight" value="10" />
+    <property name="Mass" value="33" />
+    <property name="Weight" value="11" />
     <property name="SoundHurt" value="rabbitpain" />
     <property name="SoundDeath" value="rabbitdeath" />
     <property name="SwimOffset" value="2" />
-    <property name="HasRagdoll" value="false" />
+    <property name="HasDeathAnim" value="true" />
+    <property name="HasRagdoll" value="true" />
     <property name="CanBigHead" value="false" />
     <property name="AITask-1" value="RunawayWhenHurt" />
     <property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20" />
@@ -3365,17 +3397,21 @@
     <property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03" />
     <property name="MapIcon" value="ui_game_symbol_tracking_chicken" />
     <property name="TrackerIcon" value="ui_game_symbol_tracking_chicken" />
-    <property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab" />
+    <property name="AvatarController" value="AvatarAnimalController" />
+    <property name="ModelType" value="Standard" />
+    <property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab" />
     <property name="Parent" value="Animals" />
+    <property name="HasDeathAnim" value="true" />
+    <property name="HasRagdoll" value="true" />
     <property name="Faction" value="animals" />
     <property name="PhysicsBody" value="chicken" />
-    <property name="Mass" value="15" />
-    <property name="Weight" value="10" />
+    <property name="Mass" value="36" />
+    <property name="Weight" value="12" />
     <property name="SoundHurt" value="chickenpain" />
     <property name="SoundDeath" value="chickendeath" />
     <property name="SwimOffset" value="2" />
-    <property name="HasRagdoll" value="false" />
-    <property name="HasDeathAnim" value="false" />
+    <property name="HasRagdoll" value="true" />
+    <property name="HasDeathAnim" value="true" />
     <property name="CanBigHead" value="false" />
     <!-- Gameplay  -->
     <property name="MoveSpeedPanic" value="1.3" />
@@ -3737,18 +3773,19 @@
     <property name="Tags" value="entity,animal,chicken,hostile,perkAT01,perkAT02,perkAT03" />
     <property name="MapIcon" value="ui_game_symbol_tracking_chicken" />
     <property name="TrackerIcon" value="ui_game_symbol_tracking_chicken" />
-    <property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab" />
-    <property name="SizeScale" value="1.4" />
+    <property name="AvatarController" value="AvatarAnimalController" />
+    <property name="ModelType" value="Standard" />
+    <property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab" />
     <property name="Parent" value="Animals" />
+    <property name="HasDeathAnim" value="true" />
+    <property name="HasRagdoll" value="true" />
     <property name="Faction" value="animals" />
     <property name="PhysicsBody" value="chicken" />
-    <property name="Mass" value="30" />
-    <property name="Weight" value="20" />
+    <property name="Mass" value="40" />
+    <property name="Weight" value="15" />
     <property name="SoundHurt" value="chickenpain" />
     <property name="SoundDeath" value="chickendeath" />
     <property name="SwimOffset" value="2" />
-    <property name="HasRagdoll" value="false" />
-    <property name="HasDeathAnim" value="false" />
     <property name="CanBigHead" value="false" />
     <property name="AIFeralSense" value="1.6" />
     <property name="AIGroupCircle" value="0" />
@@ -3884,8 +3921,8 @@
     <property name="ModelType" value="Standard" />
     <property name="HasRagdoll" value="true" />
     <property name="PhysicsBody" value="vulture" />
-    <property name="Mass" value="35" />
-    <property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll" />
+    <property name="Mass" value="45" />
+    <property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab" />
     <property name="SizeScale" value=".7" />
     <property name="AITask-1" value="" />
     <property name="AITarget-1" value="" />
@@ -3927,7 +3964,7 @@
     <property name="Tags" value="entity,animal,zombie,hostile,radiated,vulture" />
     <!-- hardcoded to use the vomit attack if isRadiated=true -->
     <property name="Radiated" value="" />
-    <property name="Mass" value="50" />
+    <property name="Mass" value="90" />
     <property name="SizeScale" value="1.2" />
     <!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
     <property name="MoveSpeed" value=".7" />
@@ -4023,8 +4060,8 @@
     <property name="RagdollOnDeathChance" value="0" />
     <property name="Parent" value="Enemies" />
     <property name="PhysicsBody" value="snake" />
-    <property name="Mass" value="30" />
-    <property name="Weight" value="70" />
+    <property name="Mass" value="40" />
+    <property name="Weight" value="20" />
     <property name="LookAtAngle" value="0" />
     <property name="Faction" value="undead" />
     <property name="AITask-1" value="BreakBlock" />
@@ -4117,6 +4154,7 @@
   <!-- *** GRACE -->
   <entity_class name="animalBossGrace" extends="animalBoar">
     <property name="UserSpawnType" value="Menu" />
+    <property name="EntityFlags" value="animal,zombie" />
     <property name="Tags" value="entity,animal,hostile,boar,perkAT03,boss" />
     <property name="IsEnemyEntity" value="true" />
     <property name="Prefab" value="/Entities/Animals/Boar/AnimalBossGrace" />
@@ -4185,7 +4223,6 @@
   <entity_class name="vehicleBicycle">
     <property name="Class" value="EntityBicycle" />
     <property name="Tags" value="vehicle" />
-    <property name="Parent" value="Cars" />
     <property name="Prefab" value="@:Entities/Vehicles/VBikeMountain/VBikeMountainP.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="SurfaceCategory" value="metal" />
@@ -4204,7 +4241,6 @@
   <entity_class name="vehicleMinibike">
     <property name="Class" value="EntityMinibike" />
     <property name="Tags" value="vehicle,usesGas,bikerSetBonus" />
-    <property name="Parent" value="Cars" />
     <property name="Prefab" value="@:Entities/Vehicles/VBikeMini/VBikeMiniP.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="SurfaceCategory" value="metal" />
@@ -4225,7 +4261,6 @@
   <entity_class name="vehicleMotorcycle">
     <property name="Class" value="EntityMotorcycle" />
     <property name="Tags" value="vehicle,usesGas,bikerSetBonus" />
-    <property name="Parent" value="Cars" />
     <property name="Prefab" value="@:Entities/Vehicles/VMotorcycle/VMotorcycleP.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="SurfaceCategory" value="metal" />
@@ -4246,7 +4281,6 @@
   <entity_class name="vehicleTruck4x4">
     <property name="Class" value="EntityVJeep" />
     <property name="Tags" value="vehicle,usesGas" />
-    <property name="Parent" value="Cars" />
     <property name="Prefab" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="SurfaceCategory" value="metal" />
@@ -4267,7 +4301,6 @@
   <entity_class name="vehicleGyrocopter">
     <property name="Class" value="EntityVGyroCopter" />
     <property name="Tags" value="vehicle,usesGas" />
-    <property name="Parent" value="Cars" />
     <property name="Prefab" value="@:Entities/Vehicles/VGyrocopter/VGyrocopterP.prefab" />
     <property name="ModelType" value="Standard" />
     <property name="SurfaceCategory" value="metal" />
@@ -4289,7 +4322,6 @@
 <entity_class name="vehicleHelicopter">
 	<property name="Class" value="EntityVHelicopter"/>
 	<property name="Tags" value="vehicle,usesGas"/>
-	<property name="Parent" value="Cars"/>
 	<property name="Prefab" value="@:Entities/Vehicles/VGyrocopter/VGyrocopterP.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
@@ -4310,7 +4342,6 @@ Kinda sorta works but is buggy and we don't have time for that.
 <entity_class name="vehicleJokeblimp">
 	<property name="Class" value="EntityVBlimp"/>
 	<property name="Tags" value="vehicle"/>
-	<property name="Parent" value="Cars"/>
 	<property name="Prefab" value="@:Entities/Vehicles/jokeblimp_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
@@ -4541,56 +4572,6 @@ Kinda sorta works but is buggy and we don't have time for that.
 	<property name="AIPackages" value="Human Basic, Human Ranged"/>
 </entity_class>
 -->
-  <!-- *** NPC_TEMPLATE -->
-  <entity_class name="npcTraderUMATemplate">
-    <property name="Class" value="EntityTrader" />
-    <property name="UserSpawnType" value="None" />
-    <property name="Tags" value="entity,npc,human" />
-    <property name="EntityType" value="Player" />
-    <property name="Faction" value="trader" />
-    <property name="Mesh" value="Player/Male/player_maleRagdoll" />
-    <property name="AvatarController" value="AvatarUMAController" />
-    <property name="ModelType" value="NpcUMA" />
-    <property name="HasRagdoll" value="false" />
-    <property name="Prefab" value="NPC" />
-    <property name="Parent" value="Players" />
-    <property name="PhysicsBody" value="Player" />
-    <property name="Weight" value="70" />
-    <property name="DanceType" value="1" />
-    <property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityAlive" />
-    <property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityAlive" />
-    <property name="IsEnemyEntity" value="true" />
-    <property name="SurfaceCategory" value="organic" />
-    <property name="WalkType" value="7" />
-    <property name="HasDeathAnim" value="true" />
-    <property name="ParticleOnDeath" value="blood_death" />
-    <property name="SoundRandomTime" value="200" />
-    <property name="Archetype" value="TraderJoel" />
-    <property name="SoundHurt" value="Player_Male/player1painlg" />
-    <property name="SoundHurtSmall" value="Player_Male/player1painsm" />
-    <property name="SoundDeath" value="Player_Male/player1death" />
-    <property name="SoundStamina" value="Player_Male/player1stamina" />
-    <property name="SoundDrownPain" value="Player_Male/player1drownpain" />
-    <property name="SoundWaterSurface" value="Player_Male/player1drownsurface" />
-    <property name="SoundDrownDeath" value="Player_Male/player1drowndeath" />
-    <property name="SoundJump" value="Player_Male/player1Jump" />
-    <property name="SoundLandSoft" value="Player_Male/player1LandSoft" />
-    <property name="SoundLandHard" value="Player_Male/player1LandHard" />
-    <property name="SoundPlayerLandThump" value="PlayerLandThump" />
-    <property name="MaxViewAngle" value="180" />
-    <property name="LootListAlive" value="traderNPC" />
-    <property name="MoveSpeed" value="0.75" />
-    <property name="MoveSpeedAggro" value="1.15, 1.15" />
-    <property name="MoveSpeedPanic" value="1.35" />
-    <property name="CanClimbLadders" value="true" />
-    <property name="ExperienceGain" value="130" />
-    <property name="TimeStayAfterDeath" value="30" />
-    <property name="DeadBodyHitPoints" value="251" />
-    <effect_group name="Base Effects">
-      <passive_effect name="HealthMax" operation="base_set" value="150" />
-      <passive_effect name="BuffResistance" operation="base_set" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingOne,buffInjuryBleedingTwo,buffInjuryBleeding,buffBurningZombie,buffBurningElement,buffBurningEnvironment,buffBurningEnvironmentHack,buffBurningFlamingArrow,buffBurningMolotov,buffIsOnFire,buffShocked,buffRadiationPool" />
-    </effect_group>
-  </entity_class>
   <!-- *** JUNK_SLEDGE -->
   <entity_class name="junkTurretSledge">
     <property name="Class" value="EntityTurret" />
@@ -4734,8 +4715,8 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="PhysicsBody" value="Player" />
     <property name="Weight" value="70" />
     <property name="LookAtAngle" value="60" />
-    <property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityAlive" />
-    <property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityAlive" />
+    <property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityHuman" />
+    <property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityHuman" />
     <property name="NPCID" value="traderric" />
     <property name="IsEnemyEntity" value="true" />
     <property name="WalkType" value="7" />

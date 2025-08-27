@@ -17718,6 +17718,7 @@
     <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
     <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
     <property name="Material" value="Mglass" />
+    <property name="NoScrapping" value="true" />
     <property name="Stacknumber" value="1" />
     <property name="Weight" value="10" />
     <property name="EconomicValue" value="12000" />
@@ -20490,10 +20491,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Repair_Tools_Skill_Magazine -->
@@ -20507,10 +20511,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRepairTools" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRepairTools" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRepairTools" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Salvage_Tools_Skill_Magazine -->
@@ -20524,10 +20531,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Knuckles_Skill_Magazine -->
@@ -20541,10 +20551,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingKnuckles" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingKnuckles" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingKnuckles" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Blades_Skill_Magazine -->
@@ -20558,10 +20571,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBlades" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBlades" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBlades" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Clubs_Skill_Magazine -->
@@ -20575,10 +20591,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClubs" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClubs" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClubs" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Sledgehammers_Skill_Magazine -->
@@ -20592,10 +20611,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Spears_Skill_Magazine -->
@@ -20609,10 +20631,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSpears" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSpears" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSpears" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Bows_Skill_Magazine -->
@@ -20626,10 +20651,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBows" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBows" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBows" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Handguns_Skill_Magazine -->
@@ -20643,10 +20671,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHandguns" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHandguns" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHandguns" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Shotguns_Skill_Magazine -->
@@ -20660,10 +20691,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingShotguns" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingShotguns" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingShotguns" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Rifles_Skill_Magazine -->
@@ -20677,10 +20711,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRifles" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRifles" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRifles" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Machine_Guns_Skill_Magazine -->
@@ -20694,10 +20731,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Explosives_Skill_Magazine -->
@@ -20711,10 +20751,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingExplosives" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingExplosives" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingExplosives" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Robotics_Skill_Magazine -->
@@ -20728,10 +20771,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRobotics" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRobotics" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRobotics" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Armor_Skill_Magazine -->
@@ -20745,10 +20791,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingArmor" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingArmor" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingArmor" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Medical_Skill_Magazine -->
@@ -20762,10 +20811,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMedical" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMedical" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMedical" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Food_Skill_Magazine -->
@@ -20779,10 +20831,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingFood" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingFood" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingFood" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Seed_Skill_Magazine -->
@@ -20796,10 +20851,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSeeds" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSeeds" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSeeds" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Electrician_Skill_Magazine -->
@@ -20813,10 +20871,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingElectrician" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingElectrician" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingElectrician" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Traps_Skill_Magazine -->
@@ -20830,10 +20891,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingTraps" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingTraps" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingTraps" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Workstation_Skill_Magazine -->
@@ -20847,10 +20911,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingWorkstations" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingWorkstations" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingWorkstations" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** Vehicle_Skill_Magazine -->
@@ -20864,10 +20931,13 @@
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingVehicles" level="1" />
       <!-- level="-1" sets a perk to max level -->
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingVehicles" level="1">
-        <requirement name="HasBuff" buff="buffNerdOutfit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
-      </triggered_effect>
+    </effect_group>
+    <effect_group tiered="false">
+      <requirement name="HasBuff" buff="buffNerdOutfit" />
+      <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingVehicles" level="1" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" />
+      <!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
     </effect_group>
   </item>
   <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
