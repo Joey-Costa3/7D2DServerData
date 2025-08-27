@@ -2924,9 +2924,6 @@
     <property name="cooldown_blocked" value="true" />
     <property name="waiting_blocked" value="true" />
     <property name="vote_cooldown_add" value="30" />
-    <property name="min_respawn_count" value="3" />
-    <property name="max_respawn_count" value="3" />
-    <property name="respawn_count_type" value="BlocksOnly" />
     <cooldown_addition name="twitch_Minefield" time="30" />
     <cooldown_addition name="twitch_hordestoneFerals" time="300" />
     <cooldown_addition name="twitch_hordestoneRads" time="300" />
@@ -2949,9 +2946,6 @@
     <property name="cooldown_blocked" value="true" />
     <property name="waiting_blocked" value="true" />
     <property name="vote_cooldown_add" value="30" />
-    <property name="min_respawn_count" value="3" />
-    <property name="max_respawn_count" value="3" />
-    <property name="respawn_count_type" value="BlocksOnly" />
     <cooldown_addition name="twitch_Minefield" time="30" />
     <cooldown_addition name="twitch_hordestoneZombies" time="300" />
     <cooldown_addition name="twitch_hordestoneRads" time="300" />
@@ -2974,9 +2968,6 @@
     <property name="cooldown_blocked" value="true" />
     <property name="waiting_blocked" value="true" />
     <property name="vote_cooldown_add" value="30" />
-    <property name="min_respawn_count" value="3" />
-    <property name="max_respawn_count" value="3" />
-    <property name="respawn_count_type" value="BlocksOnly" />
     <cooldown_addition name="twitch_Minefield" time="30" />
     <cooldown_addition name="twitch_hordestoneZombies" time="300" />
     <cooldown_addition name="twitch_hordestoneFerals" time="300" />

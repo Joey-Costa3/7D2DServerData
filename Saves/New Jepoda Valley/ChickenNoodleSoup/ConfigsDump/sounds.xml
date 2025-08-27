@@ -7285,6 +7285,16 @@
     <MaxRepeatRate value="0.01" />
   </SoundDataNode>
   <!-- *** Magazine Reading Sounds -->
+  <SoundDataNode name="nerd_outfit_perk">
+    <AudioSource name="Sounds/AudioSource_Notifications" />
+    <AudioClip ClipName="Sounds/Misc/nerd_outfit_perk" />
+    <VibrateController value="false" />
+    <LocalCrouchVolumeScale value="1.0" />
+    <CrouchNoiseScale value="0.5" />
+    <NoiseScale value="1" />
+    <MaxVoices value="3" />
+    <MaxRepeatRate value="0.01" />
+  </SoundDataNode>
   <SoundDataNode name="ui_mag_read">
     <AudioSource name="Sounds/AudioSource_Notifications" />
     <AudioClip ClipName="Sounds/UI/ui_mag_read1" />
@@ -18090,10 +18100,11 @@
   </SoundDataNode>
   <!-- *** Scout Zombie -->
   <SoundDataNode name="zombiefemalescoutalert">
-    <AudioSource name="Sounds/AudioSource_Screamer" />
+    <AudioSource name="Sounds/AudioSource_ScreamerAlert" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert1" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert2" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert3" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert4" />
     <Channel name="Mouth" />
     <Priority name="3" />
     <maxVoicesPerEntity value="1" />
@@ -18125,6 +18136,7 @@
     <AudioSource name="Sounds/AudioSource_Pain" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutdeath1" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutdeath2" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutdeath3" />
     <Channel name="Mouth" />
     <Priority name="0" />
     <maxVoicesPerEntity value="1" />
@@ -18140,6 +18152,8 @@
     <AudioSource name="Sounds/AudioSource_Pain" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutpain1" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutpain2" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutpain3" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutpain4" />
     <Channel name="Mouth" />
     <Priority name="1" />
     <maxVoicesPerEntity value="1" />
@@ -18157,6 +18171,7 @@
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutroam2" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutroam3" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutroam4" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutroam5" />
     <Channel name="Mouth" />
     <Priority name="5" />
     <maxVoicesPerEntity value="1" />
@@ -18172,6 +18187,9 @@
     <AudioSource name="Sounds/AudioSource_Screamer" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutsense1" />
     <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutsense2" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutsense3" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutsense4" />
+    <AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutsense5" />
     <Channel name="Mouth" />
     <Priority name="4" />
     <maxVoicesPerEntity value="1" />
@@ -21973,7 +21991,7 @@
     <Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90" />
     <AudioClip ClipName="Sounds/VO/Trader/Rekt/trader_rekt_announce_closing_01" Subtitle="trader_rekt_announce_closing_01" profanity="true" />
     <AudioClip ClipName="Sounds/VO/Trader/Rekt/trader_rekt_announce_closing_02" Subtitle="trader_rekt_announce_closing_02" profanity="true" />
-    <AudioClip ClipName="Sounds/VO/Trader/Rekt/trader_rekt_announce_closing_03" Subtitle="trader_rekt_announce_closing_03" profanity="true" />
+    <AudioClip ClipName="Sounds/VO/Trader/Rekt/trader_rekt_announce_closing_03" Subtitle="trader_rekt_announce_closing_03" />
     <LocalCrouchVolumeScale value="1.0" />
     <CrouchNoiseScale value="0.5" />
     <NoiseScale value="1" />
