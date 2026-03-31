@@ -50,7 +50,7 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.114 seconds
+- Loaded All Assemblies, in  0.133 seconds
 - Finished resetting the current domain, in  0.001 seconds
 ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
@@ -80,47 +80,47 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-UnloadTime: 0.540512 ms
-2025-08-01T16:43:54 0.000 ERR [GameEntrypoint] Blocking initialization in Awake!
-2025-08-01T16:43:54 0.032 INF Version: V 1.3 (b9) Compatibility Version: V 1.3, Build: LinuxServer 64 Bit
-2025-08-01T16:43:54 0.041 INF System information:
-2025-08-01T16:43:54 0.041 INF    OS: Linux 6.14 Ubuntu 24.04 64bit
-2025-08-01T16:43:54 0.042 INF    CPU: 12th Gen Intel(R) Core(TM) i7-12700K (cores: 20)
-2025-08-01T16:43:54 0.042 INF    RAM: 64056 MB
-2025-08-01T16:43:54 0.042 INF    GPU: Null Device (128 MB)
-2025-08-01T16:43:54 0.044 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
-2025-08-01T16:43:54 0.046 INF Local UTC offset: 2 hours
-2025-08-01T16:43:54 0.064 INF Command line arguments: ./7DaysToDieServer.x86_64 -quit -batchmode -nographics -dedicated -configfile=/home/sdtdserver/serverfiles/sdtdserver.xml
-2025-08-01T16:43:54 0.071 INF Parsing server configfile: /home/sdtdserver/serverfiles/sdtdserver.xml
-2025-08-01T16:43:54 0.095 INF Parsing server configfile successfully completed
-2025-08-01T16:43:54 0.095 INF UserDataFolder: /home/sdtdserver/.local/share/7DaysToDie
-2025-08-01T16:43:54 0.097 INF [Platform] Init
-2025-08-01T16:43:54 0.123 INF [Platform] Using native platform: Steam
-2025-08-01T16:43:54 0.124 INF [Platform] Using cross platform: EOS
-2025-08-01T16:43:54 0.124 INF [Platform] Using server platform: Steam
-2025-08-01T16:43:54 0.124 INF [Platform] Using server platform: XBL
-2025-08-01T16:43:54 0.124 INF [Platform] Using server platform: PSN
-2025-08-01T16:43:54 0.127 INF Starting PlayerInputManager...
-2025-08-01T16:43:54 0.128 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
-2025-08-01T16:43:54 0.130 INF InControl (version 1.8.9 build 9376)
-2025-08-01T16:43:54 0.227 INF UnityInputDeviceManager enabled.
-2025-08-01T16:43:54 0.240 INF [Platform] Initializing Steam
-2025-08-01T16:43:54 0.253 INF [Platform] Initializing EOS
-2025-08-01T16:43:54 0.278 INF [EOS] Initialize: Success
-2025-08-01T16:43:54 0.301 INF [Platform] Initializing XBL
-2025-08-01T16:43:54 0.301 INF [Platform] Initializing PSN
-2025-08-01T16:43:54 0.302 INF [SaveDataUtils] InitStatic Begin
-2025-08-01T16:43:54 0.303 INF [SaveDataUtils] SdPlayerPrefs -> Unity
-2025-08-01T16:43:54 0.303 INF [SaveDataUtils] InitStatic Complete
-2025-08-01T16:43:54 0.304 INF Last played version: V 1.3
-2025-08-01T16:43:54 0.306 INF Starting dedicated server level=RWG game name=ChickenNoodleSoup
-2025-08-01T16:43:54 0.306 INF Maximum allowed players: 8
-2025-08-01T16:43:54 0.306 INF Game mode: GameModeSurvival
-2025-08-01T16:43:54 0.306 INF Crossplay: True
-2025-08-01T16:43:54 0.497 INF Localization language from prefs: english
-2025-08-01T16:43:54 0.505 INF Awake IsFocused: True
-2025-08-01T16:43:54 0.505 INF Awake
-2025-08-01T16:43:54 0.632 INF Dedicated server only build
+UnloadTime: 1.328267 ms
+2025-12-28T01:55:16 0.001 ERR [GameEntrypoint] Blocking initialization in Awake!
+2025-12-28T01:55:16 0.045 INF Version: V 1.3 (b9) Compatibility Version: V 1.3, Build: LinuxServer 64 Bit
+2025-12-28T01:55:16 0.060 INF System information:
+2025-12-28T01:55:16 0.061 INF    OS: Linux 6.14 Ubuntu 24.04 64bit
+2025-12-28T01:55:16 0.061 INF    CPU: 12th Gen Intel(R) Core(TM) i7-12700K (cores: 20)
+2025-12-28T01:55:16 0.061 INF    RAM: 64056 MB
+2025-12-28T01:55:16 0.062 INF    GPU: Null Device (128 MB)
+2025-12-28T01:55:16 0.064 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2025-12-28T01:55:16 0.066 INF Local UTC offset: 1 hours
+2025-12-28T01:55:16 0.093 INF Command line arguments: ./7DaysToDieServer.x86_64 -quit -batchmode -nographics -dedicated -configfile=/home/sdtdserver/serverfiles/sdtdserver.xml
+2025-12-28T01:55:16 0.103 INF Parsing server configfile: /home/sdtdserver/serverfiles/sdtdserver.xml
+2025-12-28T01:55:16 0.134 INF Parsing server configfile successfully completed
+2025-12-28T01:55:16 0.135 INF UserDataFolder: /home/sdtdserver/.local/share/7DaysToDie
+2025-12-28T01:55:16 0.137 INF [Platform] Init
+2025-12-28T01:55:16 0.183 INF [Platform] Using native platform: Steam
+2025-12-28T01:55:16 0.184 INF [Platform] Using cross platform: EOS
+2025-12-28T01:55:16 0.184 INF [Platform] Using server platform: Steam
+2025-12-28T01:55:16 0.184 INF [Platform] Using server platform: XBL
+2025-12-28T01:55:16 0.184 INF [Platform] Using server platform: PSN
+2025-12-28T01:55:16 0.188 INF Starting PlayerInputManager...
+2025-12-28T01:55:16 0.189 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2025-12-28T01:55:16 0.193 INF InControl (version 1.8.9 build 9376)
+2025-12-28T01:55:16 0.311 INF UnityInputDeviceManager enabled.
+2025-12-28T01:55:16 0.330 INF [Platform] Initializing Steam
+2025-12-28T01:55:16 0.338 INF [Platform] Initializing EOS
+2025-12-28T01:55:16 0.363 INF [EOS] Initialize: Success
+2025-12-28T01:55:16 0.393 INF [Platform] Initializing XBL
+2025-12-28T01:55:16 0.393 INF [Platform] Initializing PSN
+2025-12-28T01:55:16 0.394 INF [SaveDataUtils] InitStatic Begin
+2025-12-28T01:55:16 0.396 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2025-12-28T01:55:16 0.396 INF [SaveDataUtils] InitStatic Complete
+2025-12-28T01:55:16 0.397 INF Last played version: V 1.3
+2025-12-28T01:55:16 0.399 INF Starting dedicated server level=RWG game name=ChickenNoodleSoup
+2025-12-28T01:55:16 0.399 INF Maximum allowed players: 8
+2025-12-28T01:55:16 0.400 INF Game mode: GameModeSurvival
+2025-12-28T01:55:16 0.400 INF Crossplay: True
+2025-12-28T01:55:16 0.647 INF Localization language from prefs: english
+2025-12-28T01:55:16 0.657 INF Awake IsFocused: True
+2025-12-28T01:55:16 0.657 INF Awake
+2025-12-28T01:55:17 0.831 INF Dedicated server only build
 ERROR: Shader Occlusion/DepthCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -129,8 +129,8 @@ ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/f
 WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2025-08-01T16:43:55 0.655 INF Occlusion: Awake
-2025-08-01T16:43:55 0.656 INF Texture quality is set to 3
+2025-12-28T01:55:17 0.862 INF Occlusion: Awake
+2025-12-28T01:55:17 0.864 INF Texture quality is set to 3
 ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -146,38 +146,38 @@ ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of
 WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2025-08-01T16:43:55 0.716 INF [MODS] Start loading from: '/home/sdtdserver/serverfiles/7DaysToDieServer_Data/../Mods'
-2025-08-01T16:43:55 0.720 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
-2025-08-01T16:43:55 0.732 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
-2025-08-01T16:43:55 0.732 INF [MODS]   Trying to load from folder: 'TFP_CommandExtensions'
-2025-08-01T16:43:55 0.733 INF [MODS]     Loaded Mod: TFP_CommandExtensions (1.1.0.1)
-2025-08-01T16:43:55 0.733 INF [MODS]   Trying to load from folder: 'TFP_MapRendering'
-2025-08-01T16:43:55 0.733 INF [MODS]     Loaded Mod: TFP_MapRendering (1.1.0.0)
-2025-08-01T16:43:55 0.733 INF [MODS]   Trying to load from folder: 'TFP_WebServer'
-2025-08-01T16:43:55 0.737 INF [MODS]     Loaded Mod: TFP_WebServer (1.1.0.4)
-2025-08-01T16:43:55 0.737 INF [MODS]   Trying to load from folder: 'Xample_MarkersMod'
-2025-08-01T16:43:55 0.737 INF [MODS]     Loaded Mod: TFP_MarkersExample (1.1.0.0)
-2025-08-01T16:43:55 0.738 INF [MODS] Initializing mod code
-2025-08-01T16:43:55 0.738 INF [MODS]   Initializing mod TFP_Harmony
-2025-08-01T16:43:55 0.748 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
-2025-08-01T16:43:55 0.748 INF [MODS]       [Harmony] Init done
-Fallback handler could not load library /home/sdtdserver/serverfiles/7DaysToDieServer_Data/MonoBleedingEdge/x86_64/data-0x5687eb5d82b0.so
-2025-08-01T16:43:55 0.959 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
-2025-08-01T16:43:55 0.959 INF [MODS]   Initializing mod TFP_CommandExtensions
-2025-08-01T16:43:55 0.959 INF [MODS]     Found ModAPI in CommandExtensions.dll, creating instance
-2025-08-01T16:43:55 0.959 INF [MODS]     Initialized code in mod 'TFP_CommandExtensions' from DLL 'CommandExtensions.dll'
-2025-08-01T16:43:55 0.959 INF [MODS]   Initializing mod TFP_MapRendering
-2025-08-01T16:43:55 0.960 INF [MODS]     Found ModAPI in MapRendering.dll, creating instance
-2025-08-01T16:43:55 0.960 INF [MODS]     Initialized code in mod 'TFP_MapRendering' from DLL 'MapRendering.dll'
-2025-08-01T16:43:55 0.960 INF [MODS]   Initializing mod TFP_WebServer
-2025-08-01T16:43:55 0.961 INF [MODS]     Found ModAPI in WebServer.dll, creating instance
-2025-08-01T16:43:55 0.972 INF [MODS]     Initialized code in mod 'TFP_WebServer' from DLL 'WebServer.dll'
-2025-08-01T16:43:55 0.972 INF [MODS]   Initializing mod TFP_MarkersExample
-2025-08-01T16:43:55 0.972 INF [MODS]     Found ModAPI in MarkersMod.dll, creating instance
-2025-08-01T16:43:55 0.972 INF [MODS]     Initialized code in mod 'TFP_MarkersExample' from DLL 'MarkersMod.dll'
-2025-08-01T16:43:55 0.972 INF [MODS] Loading done
-2025-08-01T16:43:55 0.983 INF Loading permissions file at '/home/sdtdserver/.local/share/7DaysToDie/Saves/serveradmin.xml'
-2025-08-01T16:43:55 0.996 INF Loading permissions file done.
+2025-12-28T01:55:17 0.943 INF [MODS] Start loading from: '/home/sdtdserver/serverfiles/7DaysToDieServer_Data/../Mods'
+2025-12-28T01:55:17 0.948 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2025-12-28T01:55:17 0.960 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2025-12-28T01:55:17 0.960 INF [MODS]   Trying to load from folder: 'TFP_CommandExtensions'
+2025-12-28T01:55:17 0.962 INF [MODS]     Loaded Mod: TFP_CommandExtensions (1.1.0.1)
+2025-12-28T01:55:17 0.962 INF [MODS]   Trying to load from folder: 'TFP_MapRendering'
+2025-12-28T01:55:17 0.962 INF [MODS]     Loaded Mod: TFP_MapRendering (1.1.0.0)
+2025-12-28T01:55:17 0.962 INF [MODS]   Trying to load from folder: 'TFP_WebServer'
+2025-12-28T01:55:17 0.965 INF [MODS]     Loaded Mod: TFP_WebServer (1.1.0.4)
+2025-12-28T01:55:17 0.965 INF [MODS]   Trying to load from folder: 'Xample_MarkersMod'
+2025-12-28T01:55:17 0.966 INF [MODS]     Loaded Mod: TFP_MarkersExample (1.1.0.0)
+2025-12-28T01:55:17 0.966 INF [MODS] Initializing mod code
+2025-12-28T01:55:17 0.966 INF [MODS]   Initializing mod TFP_Harmony
+2025-12-28T01:55:17 0.981 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2025-12-28T01:55:17 0.982 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library /home/sdtdserver/serverfiles/7DaysToDieServer_Data/MonoBleedingEdge/x86_64/data-0x60e9fdce0280.so
+2025-12-28T01:55:17 1.290 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2025-12-28T01:55:17 1.290 INF [MODS]   Initializing mod TFP_CommandExtensions
+2025-12-28T01:55:17 1.290 INF [MODS]     Found ModAPI in CommandExtensions.dll, creating instance
+2025-12-28T01:55:17 1.291 INF [MODS]     Initialized code in mod 'TFP_CommandExtensions' from DLL 'CommandExtensions.dll'
+2025-12-28T01:55:17 1.291 INF [MODS]   Initializing mod TFP_MapRendering
+2025-12-28T01:55:17 1.291 INF [MODS]     Found ModAPI in MapRendering.dll, creating instance
+2025-12-28T01:55:17 1.292 INF [MODS]     Initialized code in mod 'TFP_MapRendering' from DLL 'MapRendering.dll'
+2025-12-28T01:55:17 1.292 INF [MODS]   Initializing mod TFP_WebServer
+2025-12-28T01:55:17 1.293 INF [MODS]     Found ModAPI in WebServer.dll, creating instance
+2025-12-28T01:55:17 1.304 INF [MODS]     Initialized code in mod 'TFP_WebServer' from DLL 'WebServer.dll'
+2025-12-28T01:55:17 1.305 INF [MODS]   Initializing mod TFP_MarkersExample
+2025-12-28T01:55:17 1.305 INF [MODS]     Found ModAPI in MarkersMod.dll, creating instance
+2025-12-28T01:55:17 1.305 INF [MODS]     Initialized code in mod 'TFP_MarkersExample' from DLL 'MarkersMod.dll'
+2025-12-28T01:55:17 1.305 INF [MODS] Loading done
+2025-12-28T01:55:17 1.324 INF Loading permissions file at '/home/sdtdserver/.local/share/7DaysToDie/Saves/serveradmin.xml'
+2025-12-28T01:55:17 1.341 INF Loading permissions file done.
 WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -185,6 +185,7 @@ ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on 
 WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -192,7 +193,6 @@ ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on th
 WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -207,19 +207,19 @@ ERROR: Shader Game Particles/bloodShader_T shader is not supported on this GPU (
 WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/bloodShader_spec_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/bloodShader_U shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 ERROR: Shader Game Particles/bloodShader_O shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_U shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_spec_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
@@ -257,30 +257,6 @@ ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subsha
 WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/vomitShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/barrelLiquidShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/barrelLiquidShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/barrelLiquidShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -295,6 +271,30 @@ ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none
 WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/barrelLiquidShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/barrelLiquidShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/barrelLiquidShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/vomitShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -316,8 +316,8 @@ ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of 
 WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Couldn't create a Convex Mesh from source mesh "hull_forklift_tire" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 ERROR: Shader Game/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Couldn't create a Convex Mesh from source mesh "hull_forklift_tire" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -386,13 +386,6 @@ WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders re
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -407,6 +400,13 @@ ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Diffuse shader is not sup
 WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -415,14 +415,6 @@ WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders re
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Couldn't create a Convex Mesh from source mesh "Head" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
-ERROR: Shader Game/ZombieDismembermentBloodcap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game Particles/Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -430,6 +422,15 @@ ERROR: Shader Game/Autodesk shader is not supported on this GPU (none of subshad
 WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Game/ZombieDismembermentBloodcap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -437,7 +438,6 @@ ERROR: Shader Game/ZombieGibRadiation shader is not supported on this GPU (none 
 WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -475,25 +475,25 @@ WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 ERROR: Shader Hidden/Game/ChunkTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-2025-08-01T16:43:56 1.706 INF Loaded (local): events in 0.01
-2025-08-01T16:43:56 1.715 INF Loaded (local): rwgmixer in 0.01
-2025-08-01T16:43:56 1.722 INF Loaded (local): archetypes in 0.01
-2025-08-01T16:43:56 1.723 INF Loaded (local): loadingscreen in 0.00
-2025-08-01T16:43:56 1.731 INF Added 1335 subtitle data entries and 3 speaker colors
-2025-08-01T16:43:56 1.731 INF Loaded (local): subtitles in 0.00
-2025-08-01T16:43:56 1.732 INF Loaded (local): videos in 0.00
-2025-08-01T16:43:56 1.732 INF WorldStaticData.Init() needed 0.000s
-2025-08-01T16:43:56 1.752 INF Started Telnet on 8081
-2025-08-01T16:43:56 1.758 INF [PartyQuests] Initialized
-2025-08-01T16:43:56 1.758 INF Awake done in 1252 ms
+2025-12-28T01:55:18 2.316 INF Loaded (local): events in 0.01
+2025-12-28T01:55:18 2.327 INF Loaded (local): rwgmixer in 0.01
+2025-12-28T01:55:18 2.336 INF Loaded (local): archetypes in 0.01
+2025-12-28T01:55:18 2.337 INF Loaded (local): loadingscreen in 0.00
+2025-12-28T01:55:18 2.345 INF Added 1335 subtitle data entries and 3 speaker colors
+2025-12-28T01:55:18 2.345 INF Loaded (local): subtitles in 0.00
+2025-12-28T01:55:18 2.346 INF Loaded (local): videos in 0.00
+2025-12-28T01:55:18 2.347 INF WorldStaticData.Init() needed 0.000s
+2025-12-28T01:55:18 2.373 INF Started Telnet on 8081
+2025-12-28T01:55:18 2.379 INF [PartyQuests] Initialized
+2025-12-28T01:55:18 2.380 INF Awake done in 1722 ms
 ERROR: Shader Unlit/Text shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-2025-08-01T16:44:00 6.367 INF NET: Starting server protocols
-2025-08-01T16:44:00 6.368 INF [NET] Disabling protocol: SteamNetworking
-2025-08-01T16:44:00 6.386 INF NET: LiteNetLib server started
-2025-08-01T16:44:00 6.386 INF [PlatformApplication] restart required = False
-2025-08-01T16:44:00 6.386 INF StartGame
-2025-08-01T16:44:00 6.387 INF NetPackageManager Init
-2025-08-01T16:44:00 6.618 INF Persistent GamePrefs saved
+2025-12-28T01:55:23 6.960 INF NET: Starting server protocols
+2025-12-28T01:55:23 6.962 INF [NET] Disabling protocol: SteamNetworking
+2025-12-28T01:55:23 6.996 INF NET: LiteNetLib server started
+2025-12-28T01:55:23 6.998 INF [PlatformApplication] restart required = False
+2025-12-28T01:55:23 6.998 INF StartGame
+2025-12-28T01:55:23 6.999 INF NetPackageManager Init
+2025-12-28T01:55:23 7.229 INF Persistent GamePrefs saved
 GamePref.AdminFileName = serveradmin.xml
 GamePref.AirDropFrequency = 72
 GamePref.AirDropMarker = True
@@ -823,12 +823,12 @@ GameStat.TwitchBloodMoonAllowed = True
 GameStat.UNUSED_ShowZombieCounter = 
 GameStat.XPMultiplier = 100
 GameStat.ZombieHordeMeter = False
-2025-08-01T16:44:01 6.718 INF StartAsServer
-2025-08-01T16:44:01 7.138 INF Loaded (local): events in 0.10
-2025-08-01T16:44:02 7.838 INF Loaded (local): materials in 0.30
-2025-08-01T16:44:02 8.189 INF Loaded (local): physicsbodies in 0.10
-2025-08-01T16:44:02 8.538 INF Loaded (local): painting in 0.10
-2025-08-01T16:44:03 8.888 INF Loaded (local): shapes in 0.10
+2025-12-28T01:55:23 7.330 INF StartAsServer
+2025-12-28T01:55:24 7.760 INF Loaded (local): events in 0.10
+2025-12-28T01:55:24 8.460 INF Loaded (local): materials in 0.30
+2025-12-28T01:55:25 8.810 INF Loaded (local): physicsbodies in 0.10
+2025-12-28T01:55:25 9.160 INF Loaded (local): painting in 0.10
+2025-12-28T01:55:25 9.511 INF Loaded (local): shapes in 0.10
 ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1083,13 +1083,13 @@ WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders 
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Unloading 5 Unused Serialized files (Serialized files now loaded: 11)
-2025-08-01T16:44:10 16.303 INF Block IDs with mapping
-2025-08-01T16:44:10 16.310 INF Block IDs total 23973, terr 29, last 24195
-2025-08-01T16:44:10 16.321 INF Loaded (local): blocks in 7.13
-Unloading 73653 unused Assets to reduce memory usage. Loaded Objects now: 84806.
-Total: 205.230793 ms (FindLiveObjects: 3.692253 ms CreateObjectMapping: 5.549291 ms MarkObjects: 180.329070 ms  DeleteObjects: 15.659587 ms)
+2025-12-28T01:55:35 19.209 INF Block IDs with mapping
+2025-12-28T01:55:35 19.221 INF Block IDs total 23973, terr 29, last 24195
+2025-12-28T01:55:35 19.238 INF Loaded (local): blocks in 9.38
+Unloading 73940 unused Assets to reduce memory usage. Loaded Objects now: 84519.
+Total: 330.030801 ms (FindLiveObjects: 6.098718 ms CreateObjectMapping: 7.492246 ms MarkObjects: 283.614635 ms  DeleteObjects: 32.823974 ms)
 
-2025-08-01T16:44:11 16.807 INF Loaded (local): progression in 0.12
+2025-12-28T01:55:36 19.849 INF Loaded (local): progression in 0.13
 WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1097,8 +1097,22 @@ ERROR: Shader 7DTD_Unity5/WaterInBucket shader is not supported on this GPU (non
 WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2025-08-01T16:44:11 17.222 INF Loaded (local): buffs in 0.17
-2025-08-01T16:44:11 17.564 INF Loaded (local): misc in 0.10
+2025-12-28T01:55:36 20.266 INF Loaded (local): buffs in 0.17
+2025-12-28T01:55:36 20.605 INF Loaded (local): misc in 0.10
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1106,22 +1120,8 @@ ERROR: Shader 7DTD/TorchGlow shader is not supported on this GPU (none of subsha
 WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 There is no texture data available to upload.
-2025-08-01T16:44:12 18.158 INF Loaded (local): items in 0.34
+2025-12-28T01:55:37 21.398 INF Loaded (local): items in 0.49
 ERROR: Shader Shader Forge/7DTD_Particle_Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1130,110 +1130,110 @@ ERROR: Shader Game/Glass Reflex shader is not supported on this GPU (none of sub
 WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2025-08-01T16:44:12 18.526 INF Item IDs with mapping
-2025-08-01T16:44:12 18.526 INF ItemIDs from Mapping
-2025-08-01T16:44:12 18.528 INF ItemClass assignLeftOverItems 66882 of 81920
-2025-08-01T16:44:12 18.575 INF Loaded (local): item_modifiers in 0.05
-2025-08-01T16:44:13 18.928 INF Loaded (local): entityclasses in 0.10
-2025-08-01T16:44:13 19.276 INF Loaded (local): qualityinfo in 0.10
-2025-08-01T16:44:13 19.626 INF Loaded (local): sounds in 0.10
-2025-08-01T16:44:14 19.977 INF Loaded (local): recipes in 0.10
-2025-08-01T16:44:14 20.327 INF Loaded (local): blockplaceholders in 0.10
-2025-08-01T16:44:15 20.677 INF Loaded (local): loot in 0.10
-2025-08-01T16:44:15 21.026 INF Loaded (local): entitygroups in 0.10
-2025-08-01T16:44:15 21.377 INF Loaded (local): utilityai in 0.10
-2025-08-01T16:44:16 21.727 INF Loaded (local): vehicles in 0.10
-2025-08-01T16:44:16 22.076 INF Loaded (local): rwgmixer in 0.10
-2025-08-01T16:44:16 22.427 INF Loaded (local): weathersurvival in 0.10
-2025-08-01T16:44:17 22.777 INF Loaded (local): archetypes in 0.10
-2025-08-01T16:44:17 23.127 INF Loaded (local): challenges in 0.10
-2025-08-01T16:44:17 23.477 INF Loaded (local): quests in 0.10
-2025-08-01T16:44:18 23.827 INF Loaded (local): traders in 0.10
-2025-08-01T16:44:18 24.177 INF Loaded (local): npc in 0.10
-2025-08-01T16:44:18 24.527 INF Loaded (local): dialogs in 0.10
-2025-08-01T16:44:19 24.877 INF Loaded (local): ui_display in 0.10
-2025-08-01T16:44:19 25.226 INF Loaded (local): nav_objects in 0.10
-2025-08-01T16:44:19 25.576 INF Loaded (local): gamestages in 0.10
-2025-08-01T16:44:20 26.054 INF Loaded (local): gameevents in 0.23
-2025-08-01T16:44:20 26.384 INF Loaded (local): twitch in 0.10
-2025-08-01T16:44:21 26.733 INF Loaded (local): twitch_events in 0.10
-2025-08-01T16:44:21 27.084 INF Loaded (local): dmscontent in 0.10
-2025-08-01T16:44:21 27.434 INF Loaded (local): XUi_Common/styles in 0.10
-2025-08-01T16:44:22 27.783 INF Loaded (local): XUi_Common/controls in 0.10
-2025-08-01T16:44:22 28.134 INF Loaded (local): XUi/styles in 0.10
-2025-08-01T16:44:22 28.484 INF Loaded (local): XUi/controls in 0.10
-2025-08-01T16:44:23 28.833 INF Loaded (local): XUi/windows in 0.10
-2025-08-01T16:44:23 29.184 INF Loaded (local): XUi/xui in 0.10
-2025-08-01T16:44:23 29.534 INF Loaded (local): biomes in 0.10
-2025-08-01T16:44:24 29.884 INF Loaded (local): worldglobal in 0.10
-2025-08-01T16:44:24 30.234 INF Loaded (local): spawning in 0.10
-2025-08-01T16:44:24 30.584 INF Loaded (local): loadingscreen in 0.10
-2025-08-01T16:44:25 30.885 INF Added 1335 subtitle data entries and 3 speaker colors
-2025-08-01T16:44:25 30.933 INF Loaded (local): subtitles in 0.10
-2025-08-01T16:44:25 31.284 INF Loaded (local): videos in 0.10
-2025-08-01T16:44:25 31.435 INF Loading players.xml
-2025-08-01T16:44:25 31.453 INF createWorld: New Jepoda Valley, ChickenNoodleSoup, GameModeSurvival
-2025-08-01T16:44:25 31.453 INF Occlusion: Disabled
-2025-08-01T16:44:25 31.491 INF Started thread ChunkCalc
-2025-08-01T16:44:25 31.491 INF Started thread ChunkMeshBake
-2025-08-01T16:44:25 31.491 INF Started thread ChunkRegeneration
-2025-08-01T16:44:25 31.585 INF World.Load: New Jepoda Valley
-2025-08-01T16:44:25 31.603 INF BloodMoon SetDay: day 42, last day 35, freq 7, range 0
-2025-08-01T16:44:25 31.637 INF Started thread WaterSimulationApplyChanges
-2025-08-01T16:44:29 35.232 INF Started thread GenerateChunks
+2025-12-28T01:55:38 21.767 INF Item IDs with mapping
+2025-12-28T01:55:38 21.768 INF ItemIDs from Mapping
+2025-12-28T01:55:38 21.772 INF ItemClass assignLeftOverItems 66882 of 81920
+2025-12-28T01:55:38 21.829 INF Loaded (local): item_modifiers in 0.06
+2025-12-28T01:55:38 22.179 INF Loaded (local): entityclasses in 0.10
+2025-12-28T01:55:38 22.530 INF Loaded (local): qualityinfo in 0.10
+2025-12-28T01:55:39 22.879 INF Loaded (local): sounds in 0.10
+2025-12-28T01:55:39 23.229 INF Loaded (local): recipes in 0.10
+2025-12-28T01:55:39 23.579 INF Loaded (local): blockplaceholders in 0.10
+2025-12-28T01:55:40 23.929 INF Loaded (local): loot in 0.10
+2025-12-28T01:55:40 24.279 INF Loaded (local): entitygroups in 0.10
+2025-12-28T01:55:40 24.629 INF Loaded (local): utilityai in 0.10
+2025-12-28T01:55:41 24.979 INF Loaded (local): vehicles in 0.10
+2025-12-28T01:55:41 25.330 INF Loaded (local): rwgmixer in 0.10
+2025-12-28T01:55:41 25.680 INF Loaded (local): weathersurvival in 0.10
+2025-12-28T01:55:42 26.030 INF Loaded (local): archetypes in 0.10
+2025-12-28T01:55:42 26.380 INF Loaded (local): challenges in 0.10
+2025-12-28T01:55:43 26.729 INF Loaded (local): quests in 0.10
+2025-12-28T01:55:43 27.080 INF Loaded (local): traders in 0.10
+2025-12-28T01:55:43 27.430 INF Loaded (local): npc in 0.10
+2025-12-28T01:55:44 27.780 INF Loaded (local): dialogs in 0.10
+2025-12-28T01:55:44 28.130 INF Loaded (local): ui_display in 0.10
+2025-12-28T01:55:44 28.480 INF Loaded (local): nav_objects in 0.10
+2025-12-28T01:55:45 28.830 INF Loaded (local): gamestages in 0.10
+2025-12-28T01:55:45 29.349 INF Loaded (local): gameevents in 0.27
+2025-12-28T01:55:45 29.690 INF Loaded (local): twitch in 0.10
+2025-12-28T01:55:46 30.055 INF Loaded (local): twitch_events in 0.11
+2025-12-28T01:55:46 30.390 INF Loaded (local): dmscontent in 0.10
+2025-12-28T01:55:47 30.740 INF Loaded (local): XUi_Common/styles in 0.10
+2025-12-28T01:55:47 31.090 INF Loaded (local): XUi_Common/controls in 0.10
+2025-12-28T01:55:47 31.439 INF Loaded (local): XUi/styles in 0.10
+2025-12-28T01:55:48 31.790 INF Loaded (local): XUi/controls in 0.10
+2025-12-28T01:55:48 32.140 INF Loaded (local): XUi/windows in 0.10
+2025-12-28T01:55:48 32.490 INF Loaded (local): XUi/xui in 0.10
+2025-12-28T01:55:49 32.839 INF Loaded (local): biomes in 0.10
+2025-12-28T01:55:49 33.190 INF Loaded (local): worldglobal in 0.10
+2025-12-28T01:55:49 33.540 INF Loaded (local): spawning in 0.10
+2025-12-28T01:55:50 33.890 INF Loaded (local): loadingscreen in 0.10
+2025-12-28T01:55:50 34.192 INF Added 1335 subtitle data entries and 3 speaker colors
+2025-12-28T01:55:50 34.240 INF Loaded (local): subtitles in 0.10
+2025-12-28T01:55:50 34.590 INF Loaded (local): videos in 0.10
+2025-12-28T01:55:51 34.741 INF Loading players.xml
+2025-12-28T01:55:51 34.765 INF createWorld: New Jepoda Valley, ChickenNoodleSoup, GameModeSurvival
+2025-12-28T01:55:51 34.766 INF Occlusion: Disabled
+2025-12-28T01:55:51 34.795 INF Started thread ChunkRegeneration
+2025-12-28T01:55:51 34.795 INF Started thread ChunkCalc
+2025-12-28T01:55:51 34.795 INF Started thread ChunkMeshBake
+2025-12-28T01:55:51 34.892 INF World.Load: New Jepoda Valley
+2025-12-28T01:55:51 34.912 INF BloodMoon SetDay: day 42, last day 35, freq 7, range 0
+2025-12-28T01:55:51 34.944 INF Started thread WaterSimulationApplyChanges
+2025-12-28T01:55:55 39.534 INF Started thread GenerateChunks
 Unloading 1 Unused Serialized files (Serialized files now loaded: 11)
-Unloading 2589 unused Assets to reduce memory usage. Loaded Objects now: 82719.
-Total: 312.023541 ms (FindLiveObjects: 2.019534 ms CreateObjectMapping: 2.310894 ms MarkObjects: 306.845598 ms  DeleteObjects: 0.847073 ms)
+Unloading 2302 unused Assets to reduce memory usage. Loaded Objects now: 82719.
+Total: 404.330089 ms (FindLiveObjects: 4.354975 ms CreateObjectMapping: 4.628482 ms MarkObjects: 394.520796 ms  DeleteObjects: 0.825353 ms)
 
-2025-08-01T16:44:31 36.734 INF Calculating world hashes took 822 ms (world size 266 MiB)
-2025-08-01T16:44:31 36.735 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
-2025-08-01T16:44:31 36.815 INF Loading dtm raw file took 1541ms
+2025-12-28T01:55:57 41.334 INF Calculating world hashes took 852 ms (world size 266 MiB)
+2025-12-28T01:55:57 41.336 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2025-12-28T01:55:57 41.436 INF Loading dtm raw file took 1853ms
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82719.
-Total: 315.155325 ms (FindLiveObjects: 2.024510 ms CreateObjectMapping: 2.111451 ms MarkObjects: 310.925941 ms  DeleteObjects: 0.092934 ms)
+Total: 423.541523 ms (FindLiveObjects: 4.687211 ms CreateObjectMapping: 5.519597 ms MarkObjects: 413.230845 ms  DeleteObjects: 0.103257 ms)
 
-2025-08-01T16:44:31 37.455 INF Biomes image size w= 1024, h = 1024
+2025-12-28T01:55:58 42.369 INF Biomes image size w= 1024, h = 1024
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82719.
-Total: 402.486076 ms (FindLiveObjects: 2.501004 ms CreateObjectMapping: 2.684392 ms MarkObjects: 397.198253 ms  DeleteObjects: 0.101857 ms)
+Total: 444.040387 ms (FindLiveObjects: 4.198113 ms CreateObjectMapping: 4.850147 ms MarkObjects: 434.698858 ms  DeleteObjects: 0.292352 ms)
 
 Texture with ID 2780 and with size 8192x8192 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82719.
-Total: 338.410495 ms (FindLiveObjects: 2.429330 ms CreateObjectMapping: 2.577031 ms MarkObjects: 333.308449 ms  DeleteObjects: 0.094890 ms)
+Total: 479.985324 ms (FindLiveObjects: 5.423004 ms CreateObjectMapping: 5.667602 ms MarkObjects: 468.734639 ms  DeleteObjects: 0.159048 ms)
 
-2025-08-01T16:44:34 39.782 INF Loading and creating biomes took 2967ms
+2025-12-28T01:56:01 45.347 INF Loading and creating biomes took 3911ms
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82719.
-Total: 316.632223 ms (FindLiveObjects: 2.014828 ms CreateObjectMapping: 2.018699 ms MarkObjects: 312.504017 ms  DeleteObjects: 0.094128 ms)
+Total: 412.739883 ms (FindLiveObjects: 2.938350 ms CreateObjectMapping: 3.220620 ms MarkObjects: 406.480700 ms  DeleteObjects: 0.099595 ms)
 
 Texture with ID 2781 and with size 8192x8192 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82720.
-Total: 317.045329 ms (FindLiveObjects: 2.007492 ms CreateObjectMapping: 2.026230 ms MarkObjects: 312.912551 ms  DeleteObjects: 0.098585 ms)
+Total: 313.309848 ms (FindLiveObjects: 1.953125 ms CreateObjectMapping: 2.092318 ms MarkObjects: 309.137510 ms  DeleteObjects: 0.125871 ms)
 
 Texture with ID 2782 and with size 8192x8192 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82721.
-Total: 329.602725 ms (FindLiveObjects: 3.292877 ms CreateObjectMapping: 3.130207 ms MarkObjects: 323.083633 ms  DeleteObjects: 0.095310 ms)
+Total: 314.696268 ms (FindLiveObjects: 1.891538 ms CreateObjectMapping: 1.993842 ms MarkObjects: 310.713240 ms  DeleteObjects: 0.096994 ms)
 
-2025-08-01T16:44:36 42.454 INF Loading and creating shader control textures took 2671ms
+2025-12-28T01:56:04 48.225 INF Loading and creating shader control textures took 2877ms
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82723.
-Total: 304.881785 ms (FindLiveObjects: 1.921732 ms CreateObjectMapping: 2.030897 ms MarkObjects: 300.834663 ms  DeleteObjects: 0.093827 ms)
+Total: 306.502862 ms (FindLiveObjects: 2.025108 ms CreateObjectMapping: 2.091002 ms MarkObjects: 302.277081 ms  DeleteObjects: 0.109049 ms)
 
-2025-08-01T16:44:38 43.676 INF Loading and parsing of generator took 1222ms
-2025-08-01T16:44:38 43.745 INF Computed 1117 chunk groups containing a total of 28713 chunks. Largest group contains 434 chunks.
-2025-08-01T16:44:38 43.811 INF Started thread SaveChunks /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/Region
+2025-12-28T01:56:05 49.457 INF Loading and parsing of generator took 1232ms
+2025-12-28T01:56:05 49.520 INF Computed 1117 chunk groups containing a total of 28713 chunks. Largest group contains 434 chunks.
+2025-12-28T01:56:05 49.587 INF Started thread SaveChunks /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/Region
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82723.
-Total: 319.742767 ms (FindLiveObjects: 1.999447 ms CreateObjectMapping: 2.041274 ms MarkObjects: 315.604428 ms  DeleteObjects: 0.097097 ms)
+Total: 310.204775 ms (FindLiveObjects: 3.020607 ms CreateObjectMapping: 2.665092 ms MarkObjects: 304.418209 ms  DeleteObjects: 0.100284 ms)
 
-2025-08-01T16:44:40 45.698 INF [DECO] read 173404
-2025-08-01T16:44:40 45.845 INF Dynamic Music Initialized on Server
-2025-08-01T16:44:40 45.845 INF Dynamic Music Initialized on Dedi
-2025-08-01T16:44:40 45.850 INF AstarManager Init
-2025-08-01T16:44:40 46.088 INF WeatherManager: Init 8 weather packages
+2025-12-28T01:56:07 51.490 INF [DECO] read 173404
+2025-12-28T01:56:07 51.625 INF Dynamic Music Initialized on Server
+2025-12-28T01:56:07 51.625 INF Dynamic Music Initialized on Dedi
+2025-12-28T01:56:07 51.631 INF AstarManager Init
+2025-12-28T01:56:08 51.901 INF WeatherManager: Init 8 weather packages
 WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1243,19 +1243,19 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 There is no texture data available to upload.
 There is no texture data available to upload.
-2025-08-01T16:44:40 46.442 INF createWorld() done
-2025-08-01T16:44:40 46.487 INF WeatherManager: ApplySavedPackages
-2025-08-01T16:44:40 46.536 INF Loaded player
-2025-08-01T16:44:40 46.597 INF 734 VehicleManager read #0, id 13225, vehicleTruck4x4, (-1009.2, 35.1, -259.1), chunk -64, -17
-2025-08-01T16:44:40 46.597 INF VehicleManager /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/vehicles.dat, loaded 1
-2025-08-01T16:44:40 46.598 INF DroneManager /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/drones.dat, loaded 1
-2025-08-01T16:44:40 46.599 INF TurretTracker /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/turrets.dat, loaded 4
-2025-08-01T16:44:41 46.688 INF [EOS] Registering server
-2025-08-01T16:44:41 46.704 INF [PlayerInteractions] JoinedMultplayerServer
-2025-08-01T16:44:41 46.706 INF [EAC] Starting EAC server
+2025-12-28T01:56:08 52.257 INF createWorld() done
+2025-12-28T01:56:08 52.301 INF WeatherManager: ApplySavedPackages
+2025-12-28T01:56:08 52.351 INF Loaded player
+2025-12-28T01:56:08 52.409 INF 792 VehicleManager read #0, id 13225, vehicleTruck4x4, (-1009.2, 35.1, -259.1), chunk -64, -17
+2025-12-28T01:56:08 52.409 INF VehicleManager /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/vehicles.dat, loaded 1
+2025-12-28T01:56:08 52.410 INF DroneManager /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/drones.dat, loaded 1
+2025-12-28T01:56:08 52.411 INF TurretTracker /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/turrets.dat, loaded 4
+2025-12-28T01:56:08 52.504 INF [EOS] Registering server
+2025-12-28T01:56:08 52.521 INF [PlayerInteractions] JoinedMultplayerServer
+2025-12-28T01:56:08 52.524 INF [EAC] Starting EAC server
 Unloading 1 Unused Serialized files (Serialized files now loaded: 11)
 Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 84017.
-Total: 350.087625 ms (FindLiveObjects: 2.313701 ms CreateObjectMapping: 2.006771 ms MarkObjects: 345.635057 ms  DeleteObjects: 0.131609 ms)
+Total: 356.038248 ms (FindLiveObjects: 2.374814 ms CreateObjectMapping: 2.310854 ms MarkObjects: 351.225960 ms  DeleteObjects: 0.126144 ms)
 
 [S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
 CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
@@ -1263,46 +1263,79 @@ dlmopen steamservice.so failed: steamservice.so: cannot open shared object file:
 Setting breakpad minidump AppID = 251570
 SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
 [S_API FAIL] Tried to access Steam interface SteamNetworkingUtils004 before SteamAPI_Init succeeded.
-2025-08-01T16:44:41 47.534 INF Loading dymesh settings
-2025-08-01T16:44:41 47.534 INF Dynamic Mesh Settings
-2025-08-01T16:44:41 47.534 INF Use Imposter Values: False
-2025-08-01T16:44:41 47.534 INF Only Player Areas: True
-2025-08-01T16:44:41 47.534 INF Player Area Buffer: 3
-2025-08-01T16:44:41 47.534 INF Max View Distance: 1000
-2025-08-01T16:44:41 47.534 INF Regen all on new world: False
-2025-08-01T16:44:41 47.536 INF Dymesh: Prepping dynamic mesh. Resend Default: True
-2025-08-01T16:44:41 47.536 INF Dymesh: Mesh location: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
-2025-08-01T16:44:41 47.537 INF [Web] Webserver not started, WebDashboardEnabled set to false
-2025-08-01T16:44:41 47.537 INF StartGame done
-2025-08-01T16:44:41 47.539 INF [Steamworks.NET] Registering auth callbacks
-2025-08-01T16:44:41 47.541 INF [Steamworks.NET] GameServer.Init successful
-2025-08-01T16:44:41 47.543 INF [Steamworks.NET] Making server public
-2025-08-01T16:44:42 47.835 INF [EOS] Server registered, session: 9e05e1cde3bb46efb41e8e76e14a9b07, 53 attributes
-2025-08-01T16:44:42 47.838 INF [EOS] Session address: 13*.5*.14*.7*
-2025-08-01T16:44:42 48.134 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90272035256273948, public IP=13*.5*.14*.7*
-2025-08-01T16:44:42 48.533 INF Dymesh: Warming dynamic mesh
-2025-08-01T16:44:42 48.533 INF Dymesh: Creating dynamic mesh manager
-2025-08-01T16:44:42 48.536 INF Dymesh: Awake
-2025-08-01T16:44:42 48.536 INF Dymesh: Mesh location: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
-2025-08-01T16:44:42 48.537 INF Dymesh: Loading Items: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
-2025-08-01T16:44:42 48.545 INF Dymesh: Loaded Items: 13
-2025-08-01T16:44:42 48.546 INF Dymesh: Loading all items took: 0.009062 seconds.
-2025-08-01T16:44:42 48.548 INF Clearing queues.
-2025-08-01T16:44:42 48.549 INF Cleared queues.
-2025-08-01T16:44:42 48.549 INF Dynamic thread starting
-2025-08-01T16:44:42 48.551 INF Dymesh door replacement: imposterBlock
-2025-08-01T16:44:59 65.006 INF [DECO] written 173404, in 22ms
-2025-08-01T16:44:59 65.008 INF [DECO] write thread 1ms
-2025-08-04T16:16:09 257534.843 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07
-2025-08-04T16:16:09 257534.846 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: libcurl info message cache 2 (We are completely uploaded and fine)
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: libcurl info message cache 3 (Closing connection)
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] 0x5687ee2676f0: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
-2025-08-04T16:16:09 257534.847 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07
-2025-08-04T16:16:09 257534.848 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[UpsertSession], Url=[<Redacted>]
-2025-08-04T16:16:09 257535.009 ERR [EOS] Failed updating session on backend: NoConnection. From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
+2025-12-28T01:56:09 53.369 INF Loading dymesh settings
+2025-12-28T01:56:09 53.369 INF Dynamic Mesh Settings
+2025-12-28T01:56:09 53.370 INF Use Imposter Values: False
+2025-12-28T01:56:09 53.370 INF Only Player Areas: True
+2025-12-28T01:56:09 53.370 INF Player Area Buffer: 3
+2025-12-28T01:56:09 53.370 INF Max View Distance: 1000
+2025-12-28T01:56:09 53.370 INF Regen all on new world: False
+2025-12-28T01:56:09 53.371 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2025-12-28T01:56:09 53.371 INF Dymesh: Mesh location: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
+2025-12-28T01:56:09 53.373 INF [Web] Webserver not started, WebDashboardEnabled set to false
+2025-12-28T01:56:09 53.373 INF StartGame done
+2025-12-28T01:56:09 53.375 INF [Steamworks.NET] Registering auth callbacks
+2025-12-28T01:56:09 53.377 INF [Steamworks.NET] GameServer.Init successful
+2025-12-28T01:56:09 53.379 INF [Steamworks.NET] Making server public
+2025-12-28T01:56:09 53.670 INF [EOS] Server registered, session: 158b00e710e44f69ac1ec6a427645806, 53 attributes
+2025-12-28T01:56:09 53.673 INF [EOS] Session address: 13*.5*.14*.16*
+2025-12-28T01:56:10 53.819 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90279296814302223, public IP=13*.5*.14*.16*
+2025-12-28T01:56:10 54.419 INF Dymesh: Warming dynamic mesh
+2025-12-28T01:56:10 54.419 INF Dymesh: Creating dynamic mesh manager
+2025-12-28T01:56:10 54.421 INF Dymesh: Awake
+2025-12-28T01:56:10 54.421 INF Dymesh: Mesh location: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
+2025-12-28T01:56:10 54.422 INF Dymesh: Loading Items: /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/DynamicMeshes/
+2025-12-28T01:56:10 54.430 INF Dymesh: Loaded Items: 13
+2025-12-28T01:56:10 54.430 INF Dymesh: Loading all items took: 0.008062 seconds.
+2025-12-28T01:56:10 54.433 INF Clearing queues.
+2025-12-28T01:56:10 54.433 INF Cleared queues.
+2025-12-28T01:56:10 54.434 INF Dynamic thread starting
+2025-12-28T01:56:10 54.436 INF Dymesh door replacement: imposterBlock
+2025-12-28T01:56:23 66.841 INF [DECO] written 173404, in 22ms
+2025-12-28T01:56:23 66.844 INF [DECO] write thread 1ms
+2025-12-28T13:55:40 43223.775 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=85fffb61212b491999cd7fc03eb09bf6&AppVersion=1.16.4-36651368&AppEnvironment=8a44365d5ccb43328b4df2f8ca199e43&UploadType=eteventstream&SessionID=99F6F7704F1546D7A257A663E8801EC4, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.02s
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:55:39 GMT
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:55:40 43223.780 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/anticheat/v6/service/status/, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.11s
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:55:45 GMT
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:55:45 43229.338 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550: request has been successfully processed. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.06s
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550 Response Header Server: awselb/2.0
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550 Response Header Date: Sun, 28 Dec 2025 12:55:46 GMT
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550 Response Header Content-Type: text/html
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550 Response Header Content-Length: 142
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogHttp - Warning] 0x60ea00d8d550 Response Header Connection: close
+2025-12-28T13:55:46 43230.637 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.05s
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:55:51 GMT
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:55:51 43234.942 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.06s
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:55:55 GMT
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:55:55 43239.390 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.06s
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:55:59 GMT
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:56:00 43243.730 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[UpsertSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:56:00 43244.044 ERR [EOS] Failed updating session on backend: UnrecognizedResponse. From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Platform.EOS.SessionsHost:sessionUpdatedCallback (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfo&)
 Platform.EOS.SessionsHost:commitSessionCallbackWrapper (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfo&)
 Epic.OnlineServices.Sessions.SessionsInterface:OnUpdateSessionCallbackInternalImplementation (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfoInternal&)
@@ -1313,70 +1346,33 @@ Platform.PlatformManager:Update ()
 GameManager:gmUpdate ()
 GameManager:Update ()
 
-2025-08-04T16:16:09 257535.009 WRN [EOS] Attribute count: 53
-2025-08-04T16:16:17 257542.720 WRN [EOS] [LogHttp - Warning] 0x5687ee679670: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/anticheat/v6/service/status/
-2025-08-04T16:16:17 257542.721 WRN [EOS] [LogHttp - Warning] 0x5687ee679670: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:17 257542.721 WRN [EOS] [LogHttp - Warning] 0x5687ee679670: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:17 257542.721 WRN [EOS] [LogHttp - Warning] 0x5687ee679670: libcurl info message cache 1 (  Trying 54.163.231.97:443...)
-2025-08-04T16:16:17 257542.722 WRN [EOS] [LogHttp - Warning] 0x5687ee679670: libcurl info message cache 2 (Closing connection)
-2025-08-04T16:16:17 257542.722 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/anticheat/v6/service/status/
-2025-08-04T16:16:17 257542.722 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDF39B9D2-0B53-4C70-BDBD-158A0562F543%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: libcurl info message cache 2 (  Trying 54.163.231.97:443...)
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: libcurl info message cache 3 (ipv4 connect timeout after 30000ms, move on!)
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] 0x5687ebc1ca20: libcurl info message cache 4 (Closing connection)
-2025-08-04T16:16:24 257550.315 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDF39B9D2-0B53-4C70-BDBD-158A0562F543%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BC0042809-E271-4B5B-B5E9-179E7A209BB5%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: libcurl info message cache 2 (  Trying 54.163.231.97:443...)
-2025-08-04T16:16:27 257552.724 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: libcurl info message cache 3 (ipv4 connect timeout after 30000ms, move on!)
-2025-08-04T16:16:27 257552.725 WRN [EOS] [LogHttp - Warning] 0x5687ee67f2d0: libcurl info message cache 4 (Closing connection)
-2025-08-04T16:16:27 257552.725 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BC0042809-E271-4B5B-B5E9-179E7A209BB5%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07/lastupdated
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: libcurl info message cache 2 (  Trying 54.163.231.97:443...)
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: libcurl info message cache 3 (ipv4 connect timeout after 30000ms, move on!)
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: libcurl info message cache 4 (Closing connection)
-2025-08-04T16:16:44 257570.122 WRN [EOS] [LogHttp - Warning] Lockout of 1.000000s on https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07/lastupdated
-2025-08-04T16:16:45 257571.211 WRN [EOS] [LogHttp - Warning] Retry 1 on https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07/lastupdated
-2025-08-04T16:16:47 257572.766 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/anticheat/v6/service/status/
-2025-08-04T16:16:47 257572.774 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: request failed, libcurl error: 0 (No error)
-2025-08-04T16:16:47 257572.774 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: libcurl info message cache 0 (Found bundle for host: 0x74cb6406d9c0 [serially])
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: libcurl info message cache 2 (  Trying 54.163.231.97:443...)
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: libcurl info message cache 3 (ipv4 connect timeout after 30000ms, move on!)
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogHttp - Warning] 0x5687ee70a9b0: libcurl info message cache 4 (Closing connection)
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/anticheat/v6/service/status/
-2025-08-04T16:16:47 257572.775 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:17:15 257601.312 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/9e05e1cde3bb46efb41e8e76e14a9b07/lastupdated
-2025-08-04T16:17:15 257601.312 WRN [EOS] [LogHttp - Warning] 0x5687ea7ef060: request failed, libcurl error: 0 (No error)
-2025-08-04T16:17:17 257602.870 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:17:47 257632.915 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:18:17 257663.064 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:18:47 257693.067 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:18:49 257694.780 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
-2025-08-04T16:19:01 257707.163 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
-2025-08-04T16:19:17 257723.090 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:19:19 257725.338 WRN [EOS] Failed updating session on backend, will retry
-2025-08-04T16:19:47 257753.184 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:19:50 257756.541 WRN [EOS] Failed updating session on backend, will retry
-2025-08-04T16:20:17 257783.280 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:20:22 257787.685 WRN [EOS] Failed updating session on backend, will retry
-2025-08-04T16:20:47 257813.289 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:20:53 257818.828 WRN [EOS] Failed updating session on backend, will retry
-2025-08-04T16:21:01 257827.051 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
-2025-08-04T16:21:02 257828.397 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
-2025-08-04T16:21:02 257828.488 WRN [EOS] [LogEOS - Warning] SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 30.238924 seconds
-2025-08-04T16:21:17 257843.339 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
-2025-08-04T16:21:24 257849.688 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[UpsertSession], Url=[<Redacted>]
-2025-08-04T16:21:24 257849.947 ERR [EOS] Failed updating session on backend: NoConnection. From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
+2025-12-28T13:56:00 43244.045 WRN [EOS] Attribute count: 53
+2025-12-28T13:56:04 43248.154 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.06s
+2025-12-28T13:56:04 43248.155 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:56:04 43248.155 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:56:04 GMT
+2025-12-28T13:56:04 43248.155 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:56:04 43248.155 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:56:04 43248.155 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:56:04 43248.156 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:56:15 43259.199 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/anticheat/v6/service/status/, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.02s
+2025-12-28T13:56:15 43259.199 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Server: awselb/2.0
+2025-12-28T13:56:15 43259.200 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Date: Sun, 28 Dec 2025 12:56:15 GMT
+2025-12-28T13:56:15 43259.200 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Type: text/html
+2025-12-28T13:56:15 43259.200 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Content-Length: 142
+2025-12-28T13:56:15 43259.200 WRN [EOS] [LogHttp - Warning] 0x60ea00982040 Response Header Connection: close
+2025-12-28T13:56:15 43259.200 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:56:20 43264.660 WRN [EOS] [LogHttp - Warning] 0x60ea00982040: request has been successfully processed. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B9C61FDA2-7A1E-44AD-8D84-675C11572E78%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 500, content length: 142, actual payload size: 142, elapsed: 4.06s
+2025-12-28T13:56:42 43285.921 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:56:42 43286.013 WRN [EOS] [LogEOS - Warning] SDK Config Product Update Request Failed, Result Code: EOS_UnrecognizedResponse, Retrying after 59.016384 seconds
+2025-12-28T13:56:45 43289.311 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:57:45 43349.263 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:57:45 43349.413 WRN [EOS] [LogEOS - Warning] SDK Config Product Update Request Failed, Result Code: EOS_UnrecognizedResponse, Retrying after 39.017818 seconds
+2025-12-28T13:58:28 43392.581 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:58:29 43392.728 WRN [EOS] [LogEOS - Warning] SDK Config Product Update Request Failed, Result Code: EOS_UnrecognizedResponse, Retrying after 40.551418 seconds
+2025-12-28T13:59:15 43439.433 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T13:59:39 43463.590 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T14:00:03 43487.231 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[UpsertSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T14:00:03 43487.441 ERR [EOS] Failed updating session on backend: UnrecognizedResponse. From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Platform.EOS.SessionsHost:sessionUpdatedCallback (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfo&)
 Platform.EOS.SessionsHost:commitSessionCallbackWrapper (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfo&)
 Epic.OnlineServices.Sessions.SessionsInterface:OnUpdateSessionCallbackInternalImplementation (Epic.OnlineServices.Sessions.UpdateSessionCallbackInfoInternal&)
@@ -1387,4 +1383,125 @@ Platform.PlatformManager:Update ()
 GameManager:gmUpdate ()
 GameManager:Update ()
 
-2025-08-04T16:21:24 257849.949 WRN [EOS] Attribute count: 53
+2025-12-28T14:00:03 43487.443 WRN [EOS] Attribute count: 53
+2025-12-28T14:00:34 43518.494 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T14:01:21 43565.345 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2025-12-28T14:01:25 43569.706 WRN [EOS] [LogEOS - Warning] Error response received from backend. Response is not JSON. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>], HttpStatus=[500], CorrId=[]
+2024-12-29T14:05:41 130230.482 INF [EOS] [LogHttp - Warning] Skipped 77 warnings within the last 600 seconds!
+2024-12-29T14:05:41 130230.487 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: invalid HTTP response code received. URL: https://api.epicgames.dev/anticheat/v6/service/status/, HTTP code: 0, content length: 0, actual payload size: 0
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 0 (  Trying 3.224.192.131:443...)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 1 (Connected to api.epicgames.dev (3.224.192.131) port 443)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 2 (ALPN: curl offers http/1.1)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 3 (SSL reusing session ID)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, bad certificate (554):)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 9 (SSL certificate problem: certificate is not yet valid)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 10 (Closing connection)
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/anticheat/v6/service/status/
+2024-12-29T14:05:41 130230.488 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:06:06 130255.982 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: invalid HTTP response code received. URL: https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated, HTTP code: 0, content length: 0, actual payload size: 0
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 1 (  Trying 3.224.192.131:443...)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 2 (Connected to api.epicgames.dev (3.224.192.131) port 443)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 4 (SSL reusing session ID)
+2024-12-29T14:06:06 130255.984 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+2024-12-29T14:06:06 130255.985 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+2024-12-29T14:06:06 130255.985 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+2024-12-29T14:06:06 130255.993 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+2024-12-29T14:06:06 130255.994 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 9 (TLSv1.3 (OUT), TLS alert, bad certificate (554):)
+2024-12-29T14:06:06 130255.994 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 10 (SSL certificate problem: certificate is not yet valid)
+2024-12-29T14:06:06 130255.994 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 11 (Closing connection)
+2024-12-29T14:06:06 130255.994 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/matchmaking/v1/c9ccbd00333f4dd6995beb7c75000942/sessions/158b00e710e44f69ac1ec6a427645806/lastupdated
+2024-12-29T14:06:06 130255.994 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=85fffb61212b491999cd7fc03eb09bf6&AppVersion=1.16.4-36651368&AppEnvironment=8a44365d5ccb43328b4df2f8ca199e43&UploadType=eteventstream&SessionID=99F6F7704F1546D7A257A663E8801EC4, HTTP code: 0, content length: 0, actual payload size: 0
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 1 (  Trying 3.224.192.131:443...)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 2 (Connected to api.epicgames.dev (3.224.192.131) port 443)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 4 (SSL reusing session ID)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 9 (TLSv1.3 (OUT), TLS alert, bad certificate (554):)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 10 (SSL certificate problem: certificate is not yet valid)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 11 (Closing connection)
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogHttp - Warning] Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=85fffb61212b491999cd7fc03eb09bf6&AppVersion=1.16.4-36651368&AppEnvironment=8a44365d5ccb43328b4df2f8ca199e43&UploadType=eteventstream&SessionID=99F6F7704F1546D7A257A663E8801EC4
+2024-12-29T14:06:07 130257.177 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: invalid HTTP response code received. URL: https://api.epicgames.dev/anticheat/v6/service/status/, HTTP code: 0, content length: 0, actual payload size: 0
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 1 (  Trying 3.224.192.131:443...)
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 2 (Connected to api.epicgames.dev (3.224.192.131) port 443)
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogHttp - Warning] 0x60e9fe645890: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+2024-12-29T14:06:11 130260.381 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:06:12 130261.431 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:06:24 130273.929 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:06:41 130290.349 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:06:52 130301.397 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:07:11 130320.500 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:07:22 130331.844 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:07:41 130350.501 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:07:52 130362.202 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:08:07 130377.295 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+2024-12-29T14:08:11 130380.601 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:08:23 130392.600 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:08:41 130410.625 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:08:53 130423.074 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:09:11 130440.776 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:09:24 130453.623 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:09:41 130470.771 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:09:54 130484.083 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:09:55 130484.726 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+2024-12-29T14:09:55 130484.882 WRN [EOS] [LogEOS - Warning] SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 47.249603 seconds
+2024-12-29T14:10:08 130497.374 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+2024-12-29T14:10:11 130500.823 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[AntiCheat], OperationName=[GameStatus], Url=[<Redacted>]
+2024-12-29T14:10:25 130514.526 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[HeartbeatSession], Url=[<Redacted>]
+2024-12-29T14:10:30 130520.112 INF Telnet connection from: 127.0.0.1:50894
+2024-12-29T14:10:30 130520.117 INF Started thread TelnetClient_127.0.0.1:50894
+2024-12-29T14:10:30 130520.199 INF Executing command 'shutdown' by Telnet from 127.0.0.1:50894
+2024-12-29T14:10:30 130520.267 INF Preparing quit
+2024-12-29T14:10:30 130520.278 INF Disconnect
+2024-12-29T14:10:30 130520.287 INF [NET] ServerShutdown
+2024-12-29T14:10:30 130520.289 INF NET: Stopping server protocols
+2024-12-29T14:10:31 130520.598 INF NET: LiteNetLib server stopped
+2024-12-29T14:10:31 130520.632 INF SaveAndCleanupWorld
+2024-12-29T14:10:31 130520.713 INF Saving 0 of chunks took 20ms
+2024-12-29T14:10:31 130520.765 INF [Steamworks.NET] Exiting Lobby
+2024-12-29T14:10:31 130520.773 INF [EOS] Unregistering server
+2024-12-29T14:10:31 130520.785 INF [Steamworks.NET] Stopping server
+2024-12-29T14:10:31 130521.158 INF [PlayerInteractions] Shutdown, record disconnect for all currently connected players
+2024-12-29T14:10:32 130521.531 INF AstarManager Cleanup
+2024-12-29T14:10:32 130521.543 INF Clearing queues.
+2024-12-29T14:10:32 130521.543 INF Cleared queues.
+2024-12-29T14:10:33 130522.561 INF Clearing queues.
+2024-12-29T14:10:33 130522.561 INF Cleared queues.
+2024-12-29T14:10:33 130522.613 INF World.Unload
+2024-12-29T14:10:33 130522.618 INF Exited thread GenerateChunks
+2024-12-29T14:10:33 130522.626 INF Exited thread SaveChunks /home/sdtdserver/.local/share/7DaysToDie/Saves/New Jepoda Valley/ChickenNoodleSoup/Region
+2024-12-29T14:10:33 130522.673 INF World.Cleanup
+2024-12-29T14:10:33 130522.677 INF Exited thread ChunkRegeneration
+2024-12-29T14:10:33 130522.682 INF Exited thread ChunkCalc
+2024-12-29T14:10:33 130522.683 INF Exited thread ChunkMeshBake
+2024-12-29T14:10:33 130522.711 INF Exited thread WaterSimulationApplyChanges
+2024-12-29T14:10:33 130522.719 INF VehicleManager saving 1 (0 + 1)
+2024-12-29T14:10:33 130522.723 INF 2607449 VehicleManager write #0, id 13225, vehicleTruck4x4, (-1009.2, 35.1, -259.1), chunk -64, -17
+2024-12-29T14:10:33 130522.724 INF VehicleManager saved 554 bytes
+2024-12-29T14:10:33 130522.725 INF DroneManager saving 1 (0 + 1)
+2024-12-29T14:10:33 130522.727 INF DroneManager saved 599 bytes
+2024-12-29T14:10:33 130522.729 INF TurretTracker saving 4 (0 + 4)
+2024-12-29T14:10:33 130522.730 INF TurretTracker saved 25 bytes
+2024-12-29T14:10:33 130522.786 INF Persistent GamePrefs saved
+2024-12-29T14:10:33 130523.301 INF Persistent GamePrefs saved
+2024-12-29T14:10:33 130523.302 INF Cleanup
+2024-12-29T14:10:33 130523.306 INF Telnet connection closed: 127.0.0.1:50894
+2024-12-29T14:10:33 130523.310 INF Exited thread TelnetClient_127.0.0.1:50894
+2024-12-29T14:10:34 130523.351 WRN [EOS] [LogEOS - Warning] Failed to connect to the backend. ServiceName=[Sessions], OperationName=[DeleteSession], Url=[<Redacted>]
+2024-12-29T14:10:34 130523.354 ERR [EOS] Failed unregistering session on backend: NoConnection

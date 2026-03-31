@@ -1,0 +1,22 @@
+Nov 23 15:54:59.241 sdtdserver: START: PASS: Started CostaDelMars_Small
+Nov 23 15:54:59.344 sdtdserver: START: PASS: Started CostaDelMars_Small
+Nov 23 15:54:59.351 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
+Nov 23 15:54:59.352 sdtdserver: START: PASS: core_exit.sh exiting with code: 0
+Dec 28 01:52:57.652 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 28 01:53:03.235 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 28 01:53:03.745 sdtdserver: STOP: INFO: Graceful: telnet
+Dec 28 01:53:04.260 sdtdserver: STOP: INFO: Graceful: telnet: 127.0.0.1:8081
+Dec 28 01:55:08.063 sdtdserver: START: PASS: Using cached IP as public IP address
+Dec 28 01:55:10.994 sdtdserver: START: INFO: Using anonymous Steam login
+Dec 28 01:55:13.027 sdtdserver: START: INFO: Applying steamclient.so sdk64 hardlink fix: 7 Days To Die
+Dec 28 01:55:13.231 sdtdserver: START: PASS: Applying steamclient.so sdk64 hardlink fix: 7 Days To Die
+Dec 28 01:55:13.836 sdtdserver: START: INFO: Applying steamclient.so sdk32 link fix: 7 Days To Die
+Dec 28 01:55:14.039 sdtdserver: START: PASS: Applying steamclient.so sdk32 link fix: 7 Days To Die
+Dec 28 01:55:14.085 sdtdserver: START: PASS: Using cached IP as public IP address
+Dec 28 01:55:14.705 sdtdserver: START: INFO: Removing logs older than 7 days
+/home/sdtdserver/log/script/sdtdserver-script-2025-11-23-15:54:48.log
+/home/sdtdserver/log/script/sdtdserver-script-2025-11-20-00:54:39.log
+/home/sdtdserver/log/console/sdtdserver-console-2025-11-20-00:54:39.log
+/home/sdtdserver/log/console/sdtdserver-console-2025-11-23-15:54:48.log
+Dec 28 01:55:14.822 sdtdserver: START: Removed 4 log files
+Dec 28 01:55:15.325 sdtdserver: START: INFO: Rotating log files

@@ -1,0 +1,21 @@
+Dec 28 01:55:16.468 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 28 01:55:16.572 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 28 01:55:16.580 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
+Dec 28 01:55:16.581 sdtdserver: START: PASS: core_exit.sh exiting with code: 0
+Dec 29 14:10:27.920 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 29 14:10:29.527 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Dec 29 14:10:30.036 sdtdserver: STOP: INFO: Graceful: telnet
+Dec 29 14:10:30.540 sdtdserver: STOP: INFO: Graceful: telnet: 127.0.0.1:8081
+Dec 29 14:10:34.173 sdtdserver: STOP: PASS: Graceful: telnet: 127.0.0.1:8081 : 1 seconds
+Dec 29 14:10:34.690 sdtdserver: STOP: INFO: tmux kill-session: sdtdserver: CostaDelMars_Small
+Dec 29 14:10:00.836 sdtdserver: STOP: PASS: Stopped CostaDelMars_Small
+Dec 29 14:10:00.842 sdtdserver: STOP: INFO: LinuxGSM version: v24.3.1
+Dec 29 14:10:00.843 sdtdserver: STOP: PASS: core_exit.sh exiting with code: 0
+Dec 29 14:13:57.268 sdtdserver: START: PASS: Using cached IP as public IP address
+Dec 29 14:14:00.165 sdtdserver: START: INFO: Using anonymous Steam login
+Dec 29 14:14:06.539 sdtdserver: START: INFO: Applying steamclient.so sdk64 hardlink fix: 7 Days To Die
+Dec 29 14:14:06.742 sdtdserver: START: PASS: Applying steamclient.so sdk64 hardlink fix: 7 Days To Die
+Dec 29 14:14:07.345 sdtdserver: START: INFO: Applying steamclient.so sdk32 link fix: 7 Days To Die
+Dec 29 14:14:07.548 sdtdserver: START: PASS: Applying steamclient.so sdk32 link fix: 7 Days To Die
+Dec 29 14:14:07.583 sdtdserver: START: PASS: Using cached IP as public IP address
+Dec 29 14:14:08.102 sdtdserver: START: INFO: Rotating log files

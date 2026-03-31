@@ -1,4 +1,8 @@
-Aug 09 21:44:39.388 sdtdserver: START: PASS: Started CostaDelMars_Small
-Aug 09 21:44:39.491 sdtdserver: START: PASS: Started CostaDelMars_Small
-Aug 09 21:44:39.498 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
-Aug 09 21:44:39.499 sdtdserver: START: PASS: core_exit.sh exiting with code: 0
+Dec 29 14:14:09.236 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 29 14:14:09.339 sdtdserver: START: PASS: Started CostaDelMars_Small
+Dec 29 14:14:09.346 sdtdserver: START: INFO: LinuxGSM version: v24.3.1
+Dec 29 14:14:09.347 sdtdserver: START: PASS: core_exit.sh exiting with code: 0
+Jan 24 16:47:33.458 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Jan 24 16:47:38.271 sdtdserver: STOP: PASS: Using cached IP as public IP address
+Jan 24 16:47:38.780 sdtdserver: STOP: INFO: Graceful: telnet
+Jan 24 16:47:39.284 sdtdserver: STOP: INFO: Graceful: telnet: 127.0.0.1:8081
